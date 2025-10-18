@@ -1,1 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Consultation | AFRIQUEEUROPECONNEXIONVMETC</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">
+                    <i class="fas fa-globe"></i> AFRIQUEEUROPECONNEXIONVMETC
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="company/about.html">About</a></li>
+                    <li><a href="services/ai-ml.html">AI & ML</a></li>
+                    <li><a href="services/erp.html">ERP</a></li>
+                    <li><a href="services/crm.html">CRM</a></li>
+                    <li><a href="services/cloud.html">Cloud</a></li>
+                    <li><a href="services/business-analysis.html">Business Analysis</a></li>
+                    <li><a href="services/web-marketing.html">Web Marketing</a></li>
+                    <li><a href="resources/research-insights.html">Research</a></li>
+                    <li><a href="csr/social-impact.html">Social Impact</a></li>
+                    <li><a href="consultation.html" class="active">Consultation</a></li>
+                    <li><a href="company/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1><i class="fas fa-calendar-check"></i> Book Your Free Consultation</h1>
+                <p>
+                    Take the first step towards digital transformation. Schedule a complimentary consultation with our experts to discuss your business goals and discover tailored solutions.
+                </p>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="grid-2">
+                <div>
+                    <h2>What to Expect</h2>
+                    <p>Our free consultation is designed to understand your unique business challenges and explore how our solutions can help you achieve your goals.</p>
+                    
+                    <div class="card mt-2">
+                        <i class="fas fa-clock"></i>
+                        <h3>30-60 Minute Session</h3>
+                        <p>A dedicated session to understand your business needs, challenges, and objectives in detail.</p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-user-tie"></i>
+                        <h3>Expert Guidance</h3>
+                        <p>Meet with experienced consultants who specialize in digital transformation and technology solutions.</p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Tailored Recommendations</h3>
+                        <p>Receive personalized recommendations based on your specific business context and goals.</p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-file-alt"></i>
+                        <h3>No Obligation</h3>
+                        <p>Completely free with no strings attached. Walk away with valuable insights regardless of your decision.</p>
+                    </div>
+
+                    <div class="mt-3">
+                        <h3>Why Book a Consultation?</h3>
+                        <ul>
+                            <li>Gain clarity on your digital transformation journey</li>
+                            <li>Understand which technologies best fit your needs</li>
+                            <li>Get expert insights on industry best practices</li>
+                            <li>Receive a preliminary roadmap for implementation</li>
+                            <li>Ask questions and address concerns</li>
+                            <li>Learn about successful case studies in your industry</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="card" style="border-top-color: var(--yellow);">
+                        <h2 style="margin-bottom: 1.5rem;">Consultation Request Form</h2>
+                        <form id="consultationForm">
+                            <div class="form-group">
+                                <label for="name"><i class="fas fa-user"></i> Full Name *</label>
+                                <input type="text" id="name" name="name" required placeholder="John Doe">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email"><i class="fas fa-envelope"></i> Email Address *</label>
+                                <input type="email" id="email" name="email" required placeholder="john@company.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone"><i class="fas fa-phone"></i> Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="+48 123 456 789">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="company"><i class="fas fa-building"></i> Company Name</label>
+                                <input type="text" id="company" name="company" placeholder="Your Company">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="industry"><i class="fas fa-industry"></i> Industry</label>
+                                <select id="industry" name="industry">
+                                    <option value="">Select your industry</option>
+                                    <option value="retail">Retail & E-commerce</option>
+                                    <option value="healthcare">Healthcare</option>
+                                    <option value="finance">Finance & Banking</option>
+                                    <option value="manufacturing">Manufacturing</option>
+                                    <option value="logistics">Logistics & Transportation</option>
+                                    <option value="technology">Technology</option>
+                                    <option value="education">Education</option>
+                                    <option value="hospitality">Hospitality</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="service"><i class="fas fa-cogs"></i> Service Interest *</label>
+                                <select id="service" name="service" required>
+                                    <option value="">Select a service</option>
+                                    <option value="ai-ml">AI & Machine Learning</option>
+                                    <option value="erp">ERP Solutions</option>
+                                    <option value="crm">CRM Implementation</option>
+                                    <option value="cloud">Cloud Services</option>
+                                    <option value="business-analysis">Business Analysis</option>
+                                    <option value="web-marketing">Web & Digital Marketing</option>
+                                    <option value="multiple">Multiple Services</option>
+                                    <option value="consultation">General Consultation</option>
+                                    <option value="volunteer">Volunteer Program</option>
+                                    <option value="partnership">CSR Partnership</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="timezone"><i class="fas fa-globe-americas"></i> Preferred Time Zone</label>
+                                <select id="timezone" name="timezone">
+                                    <option value="">Select time zone</option>
+                                    <option value="CET">Central European Time (CET)</option>
+                                    <option value="WAT">West Africa Time (WAT)</option>
+                                    <option value="EAT">East Africa Time (EAT)</option>
+                                    <option value="GMT">Greenwich Mean Time (GMT)</option>
+                                    <option value="EST">Eastern Standard Time (EST)</option>
+                                    <option value="PST">Pacific Standard Time (PST)</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="preferred-time"><i class="fas fa-clock"></i> Preferred Time</label>
+                                <select id="preferred-time" name="preferred-time">
+                                    <option value="">Select preferred time</option>
+                                    <option value="morning">Morning (9 AM - 12 PM)</option>
+                                    <option value="afternoon">Afternoon (12 PM - 3 PM)</option>
+                                    <option value="evening">Evening (3 PM - 6 PM)</option>
+                                    <option value="flexible">Flexible</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message"><i class="fas fa-comment-dots"></i> Tell us about your needs *</label>
+                                <textarea id="message" name="message" required placeholder="Please describe your business challenges, goals, or any specific questions you'd like to discuss during the consultation..."></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label style="display: flex; align-items: center; gap: 10px; cursor: pointer;">
+                                    <input type="checkbox" required style="width: auto;">
+                                    <span>I agree to the privacy policy and terms of service</span>
+                                </label>
+                            </div>
+
+                            <button type="submit" class="submit-btn">
+                                <i class="fas fa-paper-plane"></i> Request Consultation
+                            </button>
+                        </form>
+
+                        <p style="margin-top: 1.5rem; text-align: center; color: var(--gray); font-size: 0.9rem;">
+                            <i class="fas fa-lock"></i> Your information is secure and will never be shared with third parties.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-light">
+            <div class="container">
+                <h2 class="text-center">Consultation Topics We Cover</h2>
+                <div class="grid-3 mt-3">
+                    <div class="card">
+                        <i class="fas fa-robot"></i>
+                        <h3>AI & Automation Strategy</h3>
+                        <p>Explore how AI can automate processes, improve decision-making, and drive innovation in your organization.</p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-project-diagram"></i>
+                        <h3>ERP System Selection</h3>
+                        <p>Get guidance on choosing the right ERP solution that aligns with your business processes and growth plans.</p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-users"></i>
+                        <h3>Customer Experience</h3>
+                        <p>Learn how CRM systems can enhance customer relationships and drive revenue growth.</p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-cloud"></i>
+                        <h3>Cloud Migration</h3>
+                        <p>Understand the benefits and steps involved in moving your infrastructure to the cloud.</p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Business Process Optimization</h3>
+                        <p>Identify inefficiencies and opportunities for improvement in your current operations.</p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-rocket"></i>
+                        <h3>Digital Transformation Roadmap</h3>
+                        <p>Develop a comprehensive plan for your organization's digital transformation journey.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="text-center">
+                <h2>What Our Clients Say</h2>
+                <div class="grid-3 mt-3">
+                    <div class="card">
+                        <p style="font-style: italic; margin-bottom: 1rem;">
+                            "The consultation was incredibly valuable. The team understood our challenges immediately and provided actionable recommendations."
+                        </p>
+                        <strong style="color: var(--sky-blue);">- Sarah M., Retail Director</strong>
+                    </div>
+
+                    <div class="card">
+                        <p style="font-style: italic; margin-bottom: 1rem;">
+                            "Professional, knowledgeable, and genuinely interested in helping us succeed. The consultation exceeded our expectations."
+                        </p>
+                        <strong style="color: var(--sky-blue);">- James K., CEO Manufacturing</strong>
+                    </div>
+
+                    <div class="card">
+                        <p style="font-style: italic; margin-bottom: 1rem;">
+                            "We walked away with a clear roadmap and the confidence to move forward with our digital transformation."
+                        </p>
+                        <strong style="color: var(--sky-blue);">- Maria L., Operations Manager</strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats">
+            <div class="container">
+                <h2 class="text-center" style="color: white; margin-bottom: 3rem;">Our Track Record</h2>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <h3>500+</h3>
+                        <p>Free Consultations Provided</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>95%</h3>
+                        <p>Client Satisfaction Rate</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>200+</h3>
+                        <p>Successful Projects</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>8+</h3>
+                        <p>Years of Expertise</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>About AEC</h3>
+                    <p>
+                        AFRIQUEEUROPECONNEXIONVMETC (AEC) is a leading digital transformation partner, empowering businesses across Africa and Europe through technology, innovation, and collaboration since 2017.
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="company/about.html">About</a></li>
+                        <li><a href="services/ai-ml.html">AI & ML</a></li>
+                        <li><a href="resources/research-insights.html">Research</a></li>
+                        <li><a href="csr/social-impact.html">Social Impact</a></li>
+                        <li><a href="company/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="services/erp.html">ERP Solutions</a></li>
+                        <li><a href="services/crm.html">CRM Implementation</a></li>
+                        <li><a href="services/cloud.html">Cloud Services</a></li>
+                        <li><a href="services/business-analysis.html">Business Analysis</a></li>
+                        <li><a href="services/web-marketing.html">Web Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Connect</h3>
+                    <ul class="footer-links">
+                        <li><a href="mailto:contact@aec.com">Email Us</a></li>
+                        <li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+                        <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    </ul>
+                    <p style="margin-top: 1rem;">
+                        <strong>Phone:</strong> +48 690 386 721<br>
+                        <strong>Locations:</strong> Douala, Cameroon | Krakow, Poland
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2025 AFRIQUEEUROPECONNEXIONVMETC (AEC). All Rights Reserved. | Designed by Armel Sandjong Nantchouang
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('consultationForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                phone: document.getElementById('phone').value,
+                company: document.getElementById('company').value,
+                industry: document.getElementById('industry').value,
+                service: document.getElementById('service').value,
+                timezone: document.getElementById('timezone').value,
+                preferredTime: document.getElementById('preferred-time').value,
+                message: document.getElementById('message').value
+            };
+
+            alert('Thank you for requesting a consultation!\n\nWe will contact you within 24 hours to schedule your FREE consultation session.\n\nYou will receive a confirmation email shortly.');
+            
+            this.reset();
+            console.log('Consultation request submitted:', formData);
+        });
+    </script>
+</body>
+</html>
