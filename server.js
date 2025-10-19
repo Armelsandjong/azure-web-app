@@ -3,10 +3,10 @@ const path = require('path');
 const app = express();
 const port = process.env.PORT || 3000;
 
-// Serve static files from the root directory
+// Serve static files (HTML, CSS, JS, etc.)
 app.use(express.static(path.join(__dirname)));
 
-// Fallback to index.html for root route
+// Serve index.html at root
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
