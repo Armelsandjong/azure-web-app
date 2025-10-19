@@ -1,83 +1,396 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title> Contact | AFRIQUEEUROPECONNEXIONVMETC</title>
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | AFRIQUEEUROPECONNEXIONVMETC</title>
+    <meta name="description" content="Get in touch with AFRIQUEEUROPECONNEXIONVMETC. Multiple ways to reach us - phone, email, WhatsApp, or visit our offices in Douala and Krakow.">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <nav>
-        <a href="../index.html" class="logo">AFRIQUE<span>EUROPE</span>CONNEXIONVMETC</a>
-        <ul class="nav-links">
-          <li><a href="../company/about.html">About</a></li>
-          <li><a href="ai-ml.html">AI & ML</a></li>
-          <li><a href="erp.html">ERP</a></li>
-          <li><a href="crm.html">CRM</a></li>
-          <li><a href="cloud.html">Cloud</a></li>
-          <li><a href="business-analysis.html">Business Analysis</a></li>
-          <li><a href="web-marketing.html">Web Marketing</a></li>
-          <li><a href="../resources/research-insights.html">Research</a></li>
-          <li><a href="../csr/social-impact.html">Social Impact</a></li>
-          <li><a href="../consultation.html">Consultation</a></li>
-          <li><a href="../company/contact.html">Contact</a></li>
-        </ul>
-      </nav>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="../index.html" class="logo">
+                    <i class="fas fa-globe"></i> AFRIQUEEUROPECONNEXIONVMETC
+                </a>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="mission.html">Mission</a></li>
+                    <li><a href="../services/ai-ml.html">Services</a></li>
+                    <li><a href="../resources/research-insights.html">Research</a></li>
+                    <li><a href="Volunteer.html">Volunteer</a></li>
+                    <li><a href="../consultation.html">Consultation</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1><i class="fas fa-comments"></i> Get in Touch</h1>
+                <p>
+                    We're here to help transform your business. Choose your preferred way to connect with us!
+                </p>
+            </div>
+        </section>
+
+        <!-- Quick Contact Options -->
+        <section class="container">
+            <h2 style="text-align: center; margin-bottom: 1rem;">Choose How to Reach Us</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem; font-size: 1.2rem; color: var(--gray);">
+                Multiple channels for your convenience - pick what works best for you
+            </p>
+
+            <div class="grid-3">
+                <a href="tel:+48690386721" class="card" style="text-decoration: none; text-align: center; transition: all 0.3s; cursor: pointer;">
+                    <i class="fas fa-phone" style="font-size: 4rem; color: var(--sky-blue); margin-bottom: 1rem;"></i>
+                    <h3 style="color: var(--dark);">Call Us</h3>
+                    <p style="font-size: 1.3rem; font-weight: 600; color: var(--sky-blue); margin: 1rem 0;">+48 690 386 721</p>
+                    <p style="color: var(--gray);">Available Monday - Saturday<br>9:00 AM - 6:00 PM CET</p>
+                </a>
+
+                <a href="https://wa.me/48690386721?text=Hello%20AEC,%20I'd%20like%20to%20know%20more%20about%20your%20services" target="_blank" class="card" style="text-decoration: none; text-align: center; border-top-color: #25D366; transition: all 0.3s; cursor: pointer;">
+                    <i class="fab fa-whatsapp" style="font-size: 4rem; color: #25D366; margin-bottom: 1rem;"></i>
+                    <h3 style="color: var(--dark);">WhatsApp Chat</h3>
+                    <p style="font-size: 1.3rem; font-weight: 600; color: #25D366; margin: 1rem 0;">Instant Response</p>
+                    <p style="color: var(--gray);">Chat with us anytime<br>Quick replies guaranteed!</p>
+                </a>
+
+                <a href="mailto:ArmelSandjong@afriqueeuropeconnexionvmetc.com" class="card" style="text-decoration: none; text-align: center; border-top-color: var(--red); transition: all 0.3s; cursor: pointer;">
+                    <i class="fas fa-envelope" style="font-size: 4rem; color: var(--red); margin-bottom: 1rem;"></i>
+                    <h3 style="color: var(--dark);">Email Us</h3>
+                    <p style="font-size: 1.2rem; font-weight: 600; color: var(--red); margin: 1rem 0;">ArmelSandjong@afriqueeuropeconnexionvmetc.com</p>
+                    <p style="color: var(--gray);">Response within 24 hours<br>Detailed inquiries welcome</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="bg-light">
+            <div class="container">
+                <h2 style="text-align: center; margin-bottom: 1rem;">Send Us a Message</h2>
+                <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem; font-size: 1.2rem; color: var(--gray);">
+                    Fill out the form below and we'll get back to you within 24 hours
+                </p>
+
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <div class="card">
+                        <form id="contactForm">
+                            <div class="grid-2">
+                                <div class="form-group">
+                                    <label for="name"><i class="fas fa-user"></i> Full Name *</label>
+                                    <input type="text" id="name" name="name" required placeholder="John Doe">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email"><i class="fas fa-envelope"></i> Email Address *</label>
+                                    <input type="email" id="email" name="email" required placeholder="john@company.com">
+                                </div>
+                            </div>
+
+                            <div class="grid-2">
+                                <div class="form-group">
+                                    <label for="phone"><i class="fas fa-phone"></i> Phone Number</label>
+                                    <input type="tel" id="phone" name="phone" placeholder="+48 123 456 789">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="company"><i class="fas fa-building"></i> Company Name</label>
+                                    <input type="text" id="company" name="company" placeholder="Your Company">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject"><i class="fas fa-tag"></i> Subject *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Select a topic</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="ai-ml">AI & Machine Learning</option>
+                                    <option value="erp">ERP Solutions</option>
+                                    <option value="crm">CRM Implementation</option>
+                                    <option value="cloud">Cloud Services</option>
+                                    <option value="business-analysis">Business Analysis</option>
+                                    <option value="web-marketing">Web & Digital Marketing</option>
+                                    <option value="partnership">Partnership Opportunity</option>
+                                    <option value="volunteer">Volunteer Program</option>
+                                    <option value="support">Technical Support</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message"><i class="fas fa-comment-dots"></i> Your Message *</label>
+                                <textarea id="message" name="message" required placeholder="Tell us about your project, questions, or how we can help you..."></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label style="display: flex; align-items: center; gap: 10px; cursor: pointer;">
+                                    <input type="checkbox" required style="width: auto;">
+                                    <span>I agree to the privacy policy and terms of service</span>
+                                </label>
+                            </div>
+
+                            <button type="submit" class="submit-btn">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Office Locations -->
+        <section class="container">
+            <h2 style="text-align: center; margin-bottom: 1rem;">Our Offices</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem; font-size: 1.2rem; color: var(--gray);">
+                Visit us in person - we have offices across two continents
+            </p>
+
+            <div class="grid-2">
+                <div class="card" style="border-top-color: var(--red);">
+                    <div style="font-size: 5rem; text-align: center; margin-bottom: 1rem;">🇨🇲</div>
+                    <h3 style="text-align: center; color: var(--red); font-size: 2rem;">Douala, Cameroon</h3>
+                    <h4 style="text-align: center; color: var(--gray); margin-bottom: 2rem;">African Headquarters</h4>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="padding: 1rem 0; border-bottom: 1px solid var(--light-gray);"><i class="fas fa-map-marker-alt" style="color: var(--red); margin-right: 10px;"></i> Douala, Cameroon</li>
+                        <li style="padding: 1rem 0; border-bottom: 1px solid var(--light-gray);"><i class="fas fa-clock" style="color: var(--red); margin-right: 10px;"></i> Mon-Sat: 8:00 AM - 6:00 PM WAT</li>
+                        <li style="padding: 1rem 0;"><i class="fas fa-language" style="color: var(--red); margin-right: 10px;"></i> French & English</li>
+                    </ul>
+                </div>
+
+                <div class="card" style="border-top-color: var(--sky-blue);">
+                    <div style="font-size: 5rem; text-align: center; margin-bottom: 1rem;">🇵🇱</div>
+                    <h3 style="text-align: center; color: var(--sky-blue); font-size: 2rem;">Krakow, Poland</h3>
+                    <h4 style="text-align: center; color: var(--gray); margin-bottom: 2rem;">European Operations Center</h4>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="padding: 1rem 0; border-bottom: 1px solid var(--light-gray);"><i class="fas fa-map-marker-alt" style="color: var(--sky-blue); margin-right: 10px;"></i> Krakow, Poland</li>
+                        <li style="padding: 1rem 0; border-bottom: 1px solid var(--light-gray);"><i class="fas fa-clock" style="color: var(--sky-blue); margin-right: 10px;"></i> Mon-Fri: 9:00 AM - 6:00 PM CET</li>
+                        <li style="padding: 1rem 0;"><i class="fas fa-language" style="color: var(--sky-blue); margin-right: 10px;"></i> English & Polish</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Founder's Portfolio & Research -->
+        <section class="bg-light">
+            <div class="container">
+                <h2 style="text-align: center; margin-bottom: 1rem;">Connect with Our Founder</h2>
+                <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem; font-size: 1.2rem; color: var(--gray);">
+                    Explore Armel Sandjong's work, research, and insights
+                </p>
+
+                <div class="grid-3">
+                    <a href="https://armelsandjong93.wordpress.com/" target="_blank" class="card" style="text-decoration: none; text-align: center; transition: all 0.3s;">
+                        <i class="fab fa-wordpress" style="font-size: 4rem; color: #21759B; margin-bottom: 1rem;"></i>
+                        <h3 style="color: var(--dark);">Portfolio Website</h3>
+                        <p style="color: var(--gray); margin-bottom: 1.5rem;">Explore my complete portfolio, projects, and professional journey</p>
+                        <span class="btn-secondary">Visit Portfolio <i class="fas fa-external-link-alt"></i></span>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/sandjong-n-armel/" target="_blank" class="card" style="text-decoration: none; text-align: center; border-top-color: #0077B5; transition: all 0.3s;">
+                        <i class="fab fa-linkedin" style="font-size: 4rem; color: #0077B5; margin-bottom: 1rem;"></i>
+                        <h3 style="color: var(--dark);">Personal Blog</h3>
+                        <p style="color: var(--gray); margin-bottom: 1.5rem;">Read my articles, insights, and thought leadership on LinkedIn</p>
+                        <span class="btn-secondary">Read Blog <i class="fas fa-external-link-alt"></i></span>
+                    </a>
+
+                    <a href="https://www.researchgate.net/profile/Armel-Sandjong-Nantchouang?ev=hdr_xprf" target="_blank" class="card" style="text-decoration: none; text-align: center; border-top-color: #00CCBB; transition: all 0.3s;">
+                        <i class="fab fa-researchgate" style="font-size: 4rem; color: #00CCBB; margin-bottom: 1rem;"></i>
+                        <h3 style="color: var(--dark);">Research Projects</h3>
+                        <p style="color: var(--gray); margin-bottom: 1.5rem;">View all my research publications, case studies, and white papers</p>
+                        <span class="btn-secondary">View Research <i class="fas fa-external-link-alt"></i></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Media Links -->
+        <section class="container">
+            <h2 style="text-align: center; margin-bottom: 1rem;">Follow Us on Social Media</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem; font-size: 1.2rem; color: var(--gray);">
+                Stay updated with our latest news, insights, and success stories
+            </p>
+
+            <div class="grid-3">
+                <a href="https://www.linkedin.com/company/afriqueeuropeconnexionvmetc/posts/?feedView=all" target="_blank" class="card" style="text-decoration: none; text-align: center; border-top-color: #0077B5;">
+                    <i class="fab fa-linkedin" style="font-size: 4rem; color: #0077B5; margin-bottom: 1rem;"></i>
+                    <h3 style="color: var(--dark);">LinkedIn</h3>
+                    <p style="color: var(--gray);">Company updates, articles, and professional insights</p>
+                </a>
+
+                <a href="https://www.facebook.com/armelsandjongbusiness/" target="_blank" class="card" style="text-decoration: none; text-align: center; border-top-color: #1877F2;">
+                    <i class="fab fa-facebook" style="font-size: 4rem; color: #1877F2; margin-bottom: 1rem;"></i>
+                    <h3 style="color: var(--dark);">Facebook</h3>
+                    <p style="color: var(--gray);">Community engagement and business updates</p>
+                </a>
+
+                <a href="https://x.com/SandjongAr3472" target="_blank" class="card" style="text-decoration: none; text-align: center; border-top-color: #000000;">
+                    <i class="fab fa-x-twitter" style="font-size: 4rem; color: #000000; margin-bottom: 1rem;"></i>
+                    <h3 style="color: var(--dark);">X (Twitter)</h3>
+                    <p style="color: var(--gray);">Real-time updates and industry news</p>
+                </a>
+
+                <a href="https://www.instagram.com/afriqueeuropeconnexionvmetc237/" target="_blank" class="card" style="text-decoration: none; text-align: center; border-top-color: #E4405F;">
+                    <i class="fab fa-instagram" style="font-size: 4rem; color: #E4405F; margin-bottom: 1rem;"></i>
+                    <h3 style="color: var(--dark);">Instagram</h3>
+                    <p style="color: var(--gray);">Behind-the-scenes and visual stories</p>
+                </a>
+
+                <a href="https://www.researchgate.net/profile/Armel-Sandjong-Nantchouang?ev=hdr_xprf" target="_blank" class="card" style="text-decoration: none; text-align: center; border-top-color: #00CCBB;">
+                    <i class="fab fa-researchgate" style="font-size: 4rem; color: #00CCBB; margin-bottom: 1rem;"></i>
+                    <h3 style="color: var(--dark);">ResearchGate</h3>
+                    <p style="color: var(--gray);">Academic research and publications</p>
+                </a>
+
+                <a href="https://wa.me/48690386721" target="_blank" class="card" style="text-decoration: none; text-align: center; border-top-color: #25D366;">
+                    <i class="fab fa-whatsapp" style="font-size: 4rem; color: #25D366; margin-bottom: 1rem;"></i>
+                    <h3 style="color: var(--dark);">WhatsApp</h3>
+                    <p style="color: var(--gray);">Direct messaging for quick inquiries</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="bg-light">
+            <div class="container">
+                <h2 style="text-align: center; margin-bottom: 1rem;">Frequently Asked Questions</h2>
+                <div style="max-width: 800px; margin: 3rem auto;">
+                    <div class="card" style="margin-bottom: 1rem;">
+                        <h3 style="color: var(--sky-blue);">What is your response time?</h3>
+                        <p>We typically respond to all inquiries within 24 hours during business days. For urgent matters, please call us directly or use WhatsApp for immediate assistance.</p>
+                    </div>
+
+                    <div class="card" style="margin-bottom: 1rem;">
+                        <h3 style="color: var(--sky-blue);">Do you offer free consultations?</h3>
+                        <p>Yes! We offer a completely free initial consultation where we discuss your needs, challenges, and how our solutions can help your business. No obligations attached.</p>
+                    </div>
+
+                    <div class="card" style="margin-bottom: 1rem;">
+                        <h3 style="color: var(--sky-blue);">Which countries do you serve?</h3>
+                        <p>We serve clients across Africa and Europe, with offices in Douala (Cameroon) and Krakow (Poland). We also work with international clients remotely.</p>
+                    </div>
+
+                    <div class="card">
+                        <h3 style="color: var(--sky-blue);">What languages do you support?</h3>
+                        <p>We offer services in English, French, and Polish to serve our diverse client base across two continents.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="stats">
+            <div class="container text-center">
+                <h2 style="color: white; font-size: 2.5rem; margin-bottom: 1rem;">Ready to Get Started?</h2>
+                <p style="font-size: 1.3rem; max-width: 700px; margin: 0 auto 2rem; opacity: 0.95;">
+                    Let's discuss how we can help transform your business. Reach out today for a free consultation!
+                </p>
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="../consultation.html" class="btn-primary" style="font-size: 1.2rem; padding: 18px 50px;">Book Free Consultation</a>
+                    <a href="tel:+48690386721" class="btn-secondary" style="font-size: 1.2rem; padding: 18px 50px; background: white; color: var(--sky-blue); border-color: white;">
+                        <i class="fas fa-phone"></i> Call Now
+                    </a>
+                    <a href="https://wa.me/48690386721" target="_blank" class="btn-secondary" style="font-size: 1.2rem; padding: 18px 50px; background: #25D366; color: white; border-color: #25D366;">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>About AEC</h3>
+                    <p>AFRIQUEEUROPECONNEXIONVMETC (AEC) is a leading digital transformation partner and Microsoft Partner, empowering businesses across Africa and Europe since 2017.</p>
+                    <p style="margin-top: 1rem; font-weight: 600; color: var(--yellow);">Aim High • Be Kind • Dare to be Different</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="mission.html">Our Mission</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="../services/ai-ml.html">AI & Machine Learning</a></li>
+                        <li><a href="../services/ERP.html">ERP Solutions</a></li>
+                        <li><a href="../services/crm.html">CRM Implementation</a></li>
+                        <li><a href="../services/cloud.html">Cloud Services</a></li>
+                        <li><a href="../services/business-analysis.html">Business Analysis</a></li>
+                        <li><a href="../services/web-marketing.html">Web & Digital Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/company/afriqueeuropeconnexionvmetc/posts/?feedView=all" target="_blank" rel="noopener noreferrer" class="linkedin" title="Follow us on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.facebook.com/armelsandjongbusiness/" target="_blank" rel="noopener noreferrer" class="facebook" title="Like us on Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/SandjongAr3472" target="_blank" rel="noopener noreferrer" class="twitter" title="Follow us on X"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/afriqueeuropeconnexionvmetc237/" target="_blank" rel="noopener noreferrer" class="instagram" title="Follow us on Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/48690386721" target="_blank" rel="noopener noreferrer" class="whatsapp" title="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.researchgate.net/profile/Armel-Sandjong-Nantchouang?ev=hdr_xprf" target="_blank" rel="noopener noreferrer" class="researchgate" title="View our Research"><i class="fab fa-researchgate"></i></a>
+                        <a href="mailto:ArmelSandjong@afriqueeuropeconnexionvmetc.com" class="email" title="Email Us"><i class="fas fa-envelope"></i></a>
+                    </div>
+                    <p style="margin-top: 1.5rem;">
+                        <strong>Email:</strong> <a href="mailto:ArmelSandjong@afriqueeuropeconnexionvmetc.com" style="color: rgba(255,255,255,0.8);">ArmelSandjong@afriqueeuropeconnexionvmetc.com</a><br>
+                        <strong>Phone:</strong> <a href="tel:+48690386721" style="color: rgba(255,255,255,0.8);">+48 690 386 721</a><br>
+                        <strong>WhatsApp:</strong> <a href="https://wa.me/48690386721" style="color: #25D366;" target="_blank">Chat with us</a>
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2025 AFRIQUEEUROPECONNEXIONVMETC (AEC). All Rights Reserved. | Designed by Armel Sandjong Nantchouang | <i class="fab fa-microsoft"></i> Microsoft Partner
+            </div>
+        </div>
+    </footer>
+
+    <div class="floating-social">
+        <a href="https://www.linkedin.com/company/afriqueeuropeconnexionvmetc/posts/?feedView=all" target="_blank" class="linkedin" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.facebook.com/armelsandjongbusiness/" target="_blank" class="facebook" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://x.com/SandjongAr3472" target="_blank" class="twitter" title="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://wa.me/48690386721" target="_blank" class="whatsapp" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/afriqueeuropeconnexionvmetc237/" target="_blank" class="instagram" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.researchgate.net/profile/Armel-Sandjong-Nantchouang?ev=hdr_xprf" target="_blank" class="researchgate" title="ResearchGate"><i class="fab fa-researchgate"></i></a>
     </div>
-  </header>
-  <main>
-    <section class="hero" style="padding:60px 0 40px 0;">
-      <div class="container">
-        <h1><i class="fas fa-robot"></i> AI & Machine Learning</h1>
-        <p>
-          Unlock the power of Artificial Intelligence and Machine Learning for your business. We deliver custom AI solutions, automation, and analytics to help you innovate and grow.
-        </p>
-      </div>
-    </section>
-    <section class="container" style="padding:40px 0;">
-      <h2>Our AI & ML Services</h2>
-      <ul>
-        <li>Process Automation</li>
-        <li>Predictive Analytics</li>
-        <li>Natural Language Processing</li>
-        <li>Data-Driven Insights</li>
-      </ul>
-      <a href="../consultation.html" class="cta-btn">Book a Free Consultation</a>
-    </section>
-  </main>
-  <footer class="footer">
-    <div class="footer-content">
-      <div class="footer-col">
-        <h3>About AEC</h3>
-        <p>
-          AFRIQUEEUROPECONNEXIONVMETC (AEC) is a leading digital transformation partner, empowering Africa through technology, innovation, and collaboration.
-        </p>
-      </div>
-      <div class="footer-col">
-        <h3>Quick Links</h3>
-        <ul class="footer-links">
-          <li><a href="../company/about.html">About</a></li>
-          <li><a href="ai-ml.html">AI & ML</a></li>
-          <li><a href="../resources/research-insights.html">Research</a></li>
-          <li><a href="../csr/social-impact.html">Social Impact</a></li>
-          <li><a href="../company/contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h3>Connect</h3>
-        <ul class="footer-links">
-          <li><a href="mailto:afriqueeuropeconnexionvmetc@gmail.com">Email</a></li>
-          <li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
-          <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
-          <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      &copy; 2025 AFRIQUEEUROPECONNEXIONVMETC (AEC). All Rights Reserved.
-    </div>
-  </footer>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                phone: document.getElementById('phone').value,
+                company: document.getElementById('company').value,
+                subject: document.getElementById('subject').value,
+                message: document.getElementById('message').value
+            };
+
+            alert('Thank you for contacting us!\n\nWe have received your message and will respond within 24 hours.\n\nFor urgent matters, please call us at +48 690 386 721 or message us on WhatsApp.');
+            
+            this.reset();
+            console.log('Contact form submitted:', formData);
+        });
+
+        // Add hover effect to cards
+        document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-5px)';
+            });
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0)';
+            });
+        });
+    </script>
 </body>
 </html>
