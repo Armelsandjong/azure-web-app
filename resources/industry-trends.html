@@ -1,83 +1,601 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Cloud | AFRIQUEEUROPECONNEXIONVMETC</title>
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Industry Trends & Case Studies | AFRIQUEEUROPECONNEXIONVMETC</title>
+    <meta name="description" content="Real-world case studies showing how we solve business challenges with Microsoft Dynamics 365 and Power Pages.">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        .process-map {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            margin: 2rem 0;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+        .process-step {
+            display: flex;
+            align-items: center;
+            margin: 1.5rem 0;
+            padding: 1rem;
+            background: var(--light-gray);
+            border-radius: 8px;
+            border-left: 4px solid var(--sky-blue);
+        }
+        .process-step i {
+            font-size: 2rem;
+            color: var(--sky-blue);
+            margin-right: 1rem;
+            min-width: 50px;
+        }
+        .arrow {
+            text-align: center;
+            font-size: 2rem;
+            color: var(--yellow);
+            margin: 0.5rem 0;
+        }
+        .problem-box {
+            background: #fff5f5;
+            border-left: 4px solid var(--red);
+            padding: 1.5rem;
+            margin: 1rem 0;
+            border-radius: 8px;
+        }
+        .solution-box {
+            background: #f0f9ff;
+            border-left: 4px solid var(--sky-blue);
+            padding: 1.5rem;
+            margin: 1rem 0;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <div class="container">
-      <nav>
-        <a href="../index.html" class="logo">AFRIQUE<span>EUROPE</span>CONNEXIONVMETC</a>
-        <ul class="nav-links">
-          <li><a href="../company/about.html">About</a></li>
-          <li><a href="ai-ml.html">AI & ML</a></li>
-          <li><a href="erp.html">ERP</a></li>
-          <li><a href="crm.html">CRM</a></li>
-          <li><a href="cloud.html">Cloud</a></li>
-          <li><a href="business-analysis.html">Business Analysis</a></li>
-          <li><a href="web-marketing.html">Web Marketing</a></li>
-          <li><a href="../resources/research-insights.html">Research</a></li>
-          <li><a href="../csr/social-impact.html">Social Impact</a></li>
-          <li><a href="../consultation.html">Consultation</a></li>
-          <li><a href="../company/contact.html">Contact</a></li>
-        </ul>
-      </nav>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="../index.html" class="logo">
+                    <i class="fas fa-globe"></i> AFRIQUEEUROPECONNEXIONVMETC
+                </a>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../company/about.html">About</a></li>
+                    <li><a href="../company/mission.html">Mission</a></li>
+                    <li><a href="../services/ai-ml.html">Services</a></li>
+                    <li><a href="research-insights.html">Research</a></li>
+                    <li><a href="industry-trends.html" class="active">Industry Trends</a></li>
+                    <li><a href="../consultation.html">Consultation</a></li>
+                    <li><a href="../company/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1><i class="fas fa-chart-line"></i> Industry Trends & Case Studies</h1>
+                <p>Real-world business challenges solved with Microsoft Dynamics 365 and Power Pages</p>
+                <div style="margin-top: 1.5rem;">
+                    <span class="partner-badge">
+                        <i class="fab fa-microsoft" style="font-size: 2rem; color: #0078D4;"></i>
+                        <span>Microsoft Partner Solutions</span>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Case Study 1: CRM Implementation -->
+        <section class="container">
+            <div class="card" style="background: linear-gradient(135deg, var(--red), var(--orange)); color: white; padding: 3rem; margin-bottom: 3rem;">
+                <h2 style="color: white; font-size: 2.5rem; margin-bottom: 1rem;">
+                    <i class="fas fa-exclamation-triangle"></i> Case Study #1: Lost Sales Opportunities
+                </h2>
+                <p style="font-size: 1.3rem;">
+                    <strong>Industry:</strong> Manufacturing & Distribution | <strong>Company Size:</strong> 50-200 employees
+                </p>
+            </div>
+
+            <div class="grid-2">
+                <div class="problem-box">
+                    <h3 style="color: var(--red); font-size: 1.8rem; margin-bottom: 1rem;">
+                        <i class="fas fa-times-circle"></i> The Problem
+                    </h3>
+                    <ul style="font-size: 1.1rem;">
+                        <li>Sales team losing track of customer opportunities</li>
+                        <li>No centralized customer communication history</li>
+                        <li>Duplicate customer records across Excel files</li>
+                        <li>Sales pipeline visibility is non-existent</li>
+                        <li>Follow-ups missed, deals falling through</li>
+                        <li>No reporting on sales performance</li>
+                        <li>Customer complaints not tracked</li>
+                    </ul>
+                </div>
+
+                <div class="solution-box">
+                    <h3 style="color: var(--sky-blue); font-size: 1.8rem; margin-bottom: 1rem;">
+                        <i class="fas fa-check-circle"></i> The Solution
+                    </h3>
+                    <p style="font-size: 1.2rem; margin-bottom: 1rem;"><strong>Microsoft Dynamics 365 Sales + Power Pages</strong></p>
+                    <ul style="font-size: 1.1rem;">
+                        <li>Unified customer database</li>
+                        <li>Automated lead tracking & scoring</li>
+                        <li>Visual sales pipeline management</li>
+                        <li>Automated follow-up reminders</li>
+                        <li>Power BI dashboards for insights</li>
+                        <li>Mobile app for field sales</li>
+                        <li>Customer self-service portal</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="process-map">
+                <h3 style="text-align: center; font-size: 2rem; margin-bottom: 2rem; color: var(--sky-blue);">
+                    <i class="fas fa-sitemap"></i> CRM Process Map - Before vs After
+                </h3>
+
+                <div class="grid-2">
+                    <div>
+                        <h4 style="color: var(--red); margin-bottom: 1rem;">❌ BEFORE (Manual Process)</h4>
+                        <div class="process-step" style="border-left-color: var(--red); background: #fff5f5;">
+                            <i class="fas fa-envelope" style="color: var(--red);"></i>
+                            <div>
+                                <strong>1. Lead Received</strong>
+                                <p>Email, call, or walk-in - recorded in Excel</p>
+                            </div>
+                        </div>
+                        <div class="arrow">↓</div>
+                        <div class="process-step" style="border-left-color: var(--red); background: #fff5f5;">
+                            <i class="fas fa-search" style="color: var(--red);"></i>
+                            <div>
+                                <strong>2. Manual Search</strong>
+                                <p>Check multiple Excel files for existing records</p>
+                            </div>
+                        </div>
+                        <div class="arrow">↓</div>
+                        <div class="process-step" style="border-left-color: var(--red); background: #fff5f5;">
+                            <i class="fas fa-phone" style="color: var(--red);"></i>
+                            <div>
+                                <strong>3. Follow-up (Maybe)</strong>
+                                <p>If salesperson remembers - no reminders</p>
+                            </div>
+                        </div>
+                        <div class="arrow">↓</div>
+                        <div class="process-step" style="border-left-color: var(--red); background: #fff5f5;">
+                            <i class="fas fa-question" style="color: var(--red);"></i>
+                            <div>
+                                <strong>4. Lost Track</strong>
+                                <p>Opportunity forgotten, customer goes elsewhere</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h4 style="color: var(--sky-blue); margin-bottom: 1rem;">✅ AFTER (Dynamics 365 + Power Pages)</h4>
+                        <div class="process-step">
+                            <i class="fas fa-mouse-pointer"></i>
+                            <div>
+                                <strong>1. Lead Capture</strong>
+                                <p>Auto-captured from website, email, calls, Power Pages portal</p>
+                            </div>
+                        </div>
+                        <div class="arrow">↓</div>
+                        <div class="process-step">
+                            <i class="fas fa-robot"></i>
+                            <div>
+                                <strong>2. Auto Lead Scoring</strong>
+                                <p>AI scores lead, checks duplicates, assigns to sales rep</p>
+                            </div>
+                        </div>
+                        <div class="arrow">↓</div>
+                        <div class="process-step">
+                            <i class="fas fa-bell"></i>
+                            <div>
+                                <strong>3. Automated Follow-up</strong>
+                                <p>Reminders, email templates, activity tracking</p>
+                            </div>
+                        </div>
+                        <div class="arrow">↓</div>
+                        <div class="process-step">
+                            <i class="fas fa-handshake"></i>
+                            <div>
+                                <strong>4. Deal Closed</strong>
+                                <p>Track opportunity → quote → order → delivery</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="background: linear-gradient(135deg, var(--sky-blue), var(--light-blue)); color: white; padding: 2rem; border-radius: 10px; margin-top: 2rem;">
+                    <h4 style="color: white; font-size: 1.5rem; margin-bottom: 1rem;">📊 Results Achieved:</h4>
+                    <div class="grid-3">
+                        <div style="text-align: center;">
+                            <div style="font-size: 3rem; font-weight: bold;">35%</div>
+                            <p>Increase in Sales</p>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="font-size: 3rem; font-weight: bold;">90%</div>
+                            <p>Follow-up Rate</p>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="font-size: 3rem; font-weight: bold;">50%</div>
+                            <p>Faster Response Time</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Case Study 2: Finance & Accounting -->
+        <section class="bg-light">
+            <div class="container">
+                <div class="card" style="background: linear-gradient(135deg, var(--yellow), var(--orange)); color: white; padding: 3rem; margin-bottom: 3rem;">
+                    <h2 style="color: white; font-size: 2.5rem; margin-bottom: 1rem;">
+                        <i class="fas fa-exclamation-triangle"></i> Case Study #2: Finance Chaos
+                    </h2>
+                    <p style="font-size: 1.3rem;">
+                        <strong>Industry:</strong> Wholesale & Distribution | <strong>Company Size:</strong> 100+ employees
+                    </p>
+                </div>
+
+                <div class="grid-2">
+                    <div class="problem-box">
+                        <h3 style="color: var(--red); font-size: 1.8rem; margin-bottom: 1rem;">
+                            <i class="fas fa-times-circle"></i> The Problem
+                        </h3>
+                        <ul style="font-size: 1.1rem;">
+                            <li>Manual invoice processing taking days</li>
+                            <li>Payment tracking in multiple spreadsheets</li>
+                            <li>No visibility on cash flow</li>
+                            <li>VAT calculations done manually (errors!)</li>
+                            <li>Accounts receivable aging not tracked</li>
+                            <li>Product release delays due to payment confusion</li>
+                            <li>Month-end closing takes 2 weeks</li>
+                        </ul>
+                    </div>
+
+                    <div class="solution-box">
+                        <h3 style="color: var(--sky-blue); font-size: 1.8rem; margin-bottom: 1rem;">
+                            <i class="fas fa-check-circle"></i> The Solution
+                        </h3>
+                        <p style="font-size: 1.2rem; margin-bottom: 1rem;"><strong>Microsoft Dynamics 365 Finance + Power Automate</strong></p>
+                        <ul style="font-size: 1.1rem;">
+                            <li>Automated invoice generation</li>
+                            <li>Real-time payment tracking</li>
+                            <li>Automatic VAT calculation</li>
+                            <li>Integrated accounts payable/receivable</li>
+                            <li>Cash flow forecasting</li>
+                            <li>Automated payment reminders</li>
+                            <li>One-click financial reports</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="process-map">
+                    <h3 style="text-align: center; font-size: 2rem; margin-bottom: 2rem; color: var(--sky-blue);">
+                        <i class="fas fa-sitemap"></i> Finance Process Map - Order to Cash
+                    </h3>
+
+                    <div class="process-step">
+                        <i class="fas fa-shopping-cart"></i>
+                        <div>
+                            <strong>Step 1: Customer Order Received</strong>
+                            <p>Order entered in Dynamics 365 Sales → Auto-creates sales order</p>
+                        </div>
+                    </div>
+                    <div class="arrow">↓</div>
+
+                    <div class="process-step">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                        <div>
+                            <strong>Step 2: Invoice Generation</strong>
+                            <p>System auto-generates invoice with VAT calculation → Sent to customer via email</p>
+                        </div>
+                    </div>
+                    <div class="arrow">↓</div>
+
+                    <div class="process-step">
+                        <i class="fas fa-credit-card"></i>
+                        <div>
+                            <strong>Step 3: Payment Processing</strong>
+                            <p>Customer pays → Payment recorded in Accounts Receivable → Bank reconciliation automated</p>
+                        </div>
+                    </div>
+                    <div class="arrow">↓</div>
+
+                    <div class="process-step">
+                        <i class="fas fa-check-double"></i>
+                        <div>
+                            <strong>Step 4: Payment Verification</strong>
+                            <p>System matches payment to invoice → Updates accounts → Triggers warehouse notification</p>
+                        </div>
+                    </div>
+                    <div class="arrow">↓</div>
+
+                    <div class="process-step">
+                        <i class="fas fa-box-open"></i>
+                        <div>
+                            <strong>Step 5: Product Release</strong>
+                            <p>Warehouse receives automated release order → Product shipped → Customer notified</p>
+                        </div>
+                    </div>
+                    <div class="arrow">↓</div>
+
+                    <div class="process-step">
+                        <i class="fas fa-chart-pie"></i>
+                        <div>
+                            <strong>Step 6: Financial Reporting</strong>
+                            <p>All transactions recorded → Real-time P&L, balance sheet, cash flow reports available</p>
+                        </div>
+                    </div>
+
+                    <div style="background: linear-gradient(135deg, var(--yellow), var(--orange)); color: white; padding: 2rem; border-radius: 10px; margin-top: 2rem;">
+                        <h4 style="color: white; font-size: 1.5rem; margin-bottom: 1rem;">📊 Results Achieved:</h4>
+                        <div class="grid-3">
+                            <div style="text-align: center;">
+                                <div style="font-size: 3rem; font-weight: bold;">80%</div>
+                                <p>Faster Invoice Processing</p>
+                            </div>
+                            <div style="text-align: center;">
+                                <div style="font-size: 3rem; font-weight: bold;">95%</div>
+                                <p>Payment Accuracy</p>
+                            </div>
+                            <div style="text-align: center;">
+                                <div style="font-size: 3rem; font-weight: bold;">2 Days</div>
+                                <p>Month-End Closing (from 14)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Case Study 3: Inventory Management -->
+        <section class="container">
+            <div class="card" style="background: linear-gradient(135deg, var(--teal), var(--light-blue)); color: white; padding: 3rem; margin-bottom: 3rem;">
+                <h2 style="color: white; font-size: 2.5rem; margin-bottom: 1rem;">
+                    <i class="fas fa-exclamation-triangle"></i> Case Study #3: Inventory Nightmare
+                </h2>
+                <p style="font-size: 1.3rem;">
+                    <strong>Industry:</strong> Retail & E-commerce | <strong>Company Size:</strong> 20-50 employees
+                </p>
+            </div>
+
+            <div class="grid-2">
+                <div class="problem-box">
+                    <h3 style="color: var(--red); font-size: 1.8rem; margin-bottom: 1rem;">
+                        <i class="fas fa-times-circle"></i> The Problem
+                    </h3>
+                    <ul style="font-size: 1.1rem;">
+                        <li>No real-time stock visibility</li>
+                        <li>Overselling products (stock already sold)</li>
+                        <li>Understocking (lost sales)</li>
+                        <li>No demand forecasting</li>
+                        <li>Manual stock counts (time-consuming)</li>
+                        <li>Multiple warehouses with no sync</li>
+                        <li>Expired products not tracked</li>
+                    </ul>
+                </div>
+
+                <div class="solution-box">
+                    <h3 style="color: var(--sky-blue); font-size: 1.8rem; margin-bottom: 1rem;">
+                        <i class="fas fa-check-circle"></i> The Solution
+                    </h3>
+                    <p style="font-size: 1.2rem; margin-bottom: 1rem;"><strong>Dynamics 365 Supply Chain + AI Insights</strong></p>
+                    <ul style="font-size: 1.1rem;">
+                        <li>Real-time inventory tracking</li>
+                        <li>Multi-warehouse synchronization</li>
+                        <li>AI-powered demand forecasting</li>
+                        <li>Automated reorder points</li>
+                        <li>Product expiry alerts</li>
+                        <li>Mobile barcode scanning</li>
+                        <li>Predictive analytics for trends</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="process-map">
+                <h3 style="text-align: center; font-size: 2rem; margin-bottom: 2rem; color: var(--sky-blue);">
+                    <i class="fas fa-sitemap"></i> Inventory Management Process Map
+                </h3>
+
+                <div class="process-step">
+                    <i class="fas fa-truck-loading"></i>
+                    <div>
+                        <strong>Step 1: Goods Receipt</strong>
+                        <p>Products arrive → Scan barcode → Auto-update inventory in real-time</p>
+                    </div>
+                </div>
+                <div class="arrow">↓</div>
+
+                <div class="process-step">
+                    <i class="fas fa-warehouse"></i>
+                    <div>
+                        <strong>Step 2: Stock Allocation</strong>
+                        <p>System allocates stock across warehouses → Updates all channels (website, POS, marketplace)</p>
+                    </div>
+                </div>
+                <div class="arrow">↓</div>
+
+                <div class="process-step">
+                    <i class="fas fa-chart-line"></i>
+                    <div>
+                        <strong>Step 3: Demand Forecasting (AI)</strong>
+                        <p>AI analyzes sales history, seasonality, trends → Predicts future demand</p>
+                    </div>
+                    </div>
+                <div class="arrow">↓</div>
+
+                <div class="process-step">
+                    <i class="fas fa-bell"></i>
+                    <div>
+                        <strong>Step 4: Automated Reorder Alerts</strong>
+                        <p>When stock reaches reorder point → Auto-generates purchase order → Notifies supplier</p>
+                    </div>
+                </div>
+                <div class="arrow">↓</div>
+
+                <div class="process-step">
+                    <i class="fas fa-box"></i>
+                    <div>
+                        <strong>Step 5: Order Fulfillment</strong>
+                        <p>Customer orders → System picks from optimal warehouse → Updates stock → Ships product</p>
+                    </div>
+                </div>
+                <div class="arrow">↓</div>
+
+                <div class="process-step">
+                    <i class="fas fa-clipboard-check"></i>
+                    <div>
+                        <strong>Step 6: Stock Analysis</strong>
+                        <p>Real-time dashboards → Slow-moving items identified → Expiry alerts → Optimization recommendations</p>
+                    </div>
+                </div>
+
+                <div style="background: linear-gradient(135deg, var(--teal), var(--light-blue)); color: white; padding: 2rem; border-radius: 10px; margin-top: 2rem;">
+                    <h4 style="color: white; font-size: 1.5rem; margin-bottom: 1rem;">📊 Results Achieved:</h4>
+                    <div class="grid-3">
+                        <div style="text-align: center;">
+                            <div style="font-size: 3rem; font-weight: bold;">60%</div>
+                            <p>Reduction in Stockouts</p>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="font-size: 3rem; font-weight: bold;">40%</div>
+                            <p>Reduced Overstock</p>
+                        </div>
+                        <div style="text-align: center;">
+                            <div style="font-size: 3rem; font-weight: bold;">25%</div>
+                            <p>Improved Cash Flow</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Power Pages Benefits -->
+        <section class="bg-light">
+            <div class="container">
+                <h2 style="text-align: center;">How Power Pages Enhances These Solutions</h2>
+                <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem; font-size: 1.2rem; color: var(--gray);">
+                    Microsoft Power Pages provides customer-facing portals that extend Dynamics 365 capabilities
+                </p>
+
+                <div class="grid-3">
+                    <div class="card">
+                        <i class="fas fa-user-circle" style="font-size: 3rem; color: var(--sky-blue);"></i>
+                        <h3>Customer Self-Service</h3>
+                        <p>Customers can check order status, track shipments, view invoices, and submit support tickets without calling.</p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-shopping-cart" style="font-size: 3rem; color: var(--red);"></i>
+                        <h3>Online Ordering</h3>
+                        <p>B2B customers place orders directly through portal → Auto-syncs with Dynamics 365 → Eliminates manual entry.</p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-file-invoice" style="font-size: 3rem; color: var(--yellow);"></i>
+                        <h3>Invoice Portal</h3>
+                        <p>Customers view outstanding invoices, download PDFs, make payments online → Reduces payment delays.</p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-headset" style="font-size: 3rem; color: var(--teal);"></i>
+                        <h3>Support Tickets</h3>
+                        <p>Submit support requests → Auto-creates cases in Dynamics 365 → Track resolution status in real-time.</p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-chart-bar" style="font-size: 3rem; color: var(--orange);"></i>
+                        <h3>Partner Portals</h3>
+                        <p>Distributors and partners access real-time inventory, place orders, track commissions through secure portal.</p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-mobile-alt" style="font-size: 3rem; color: var(--sky-blue);"></i>
+                        <h3>Mobile Access</h3>
+                        <p>Fully responsive design → Customers and partners manage everything from smartphones.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="stats">
+            <div class="container text-center">
+                <h2 style="color: white; font-size: 2.5rem; margin-bottom: 1rem;">Facing Similar Challenges?</h2>
+                <p style="font-size: 1.3rem; max-width: 700px; margin: 0 auto 2rem; opacity: 0.95;">
+                    Let's discuss how Microsoft Dynamics 365 and Power Pages can transform your business operations.
+                </p>
+                <a href="../consultation.html" class="btn-primary" style="font-size: 1.2rem; padding: 18px 50px; margin-right: 1rem;">Book Free Consultation</a>
+                <a href="../company/contact.html" class="btn-secondary" style="font-size: 1.2rem; padding: 18px 50px; background: white; color: var(--sky-blue); border-color: white;">Contact Us</a>
+                <p style="margin-top: 2rem; font-size: 1.1rem;">
+                    <i class="fab fa-whatsapp" style="font-size: 1.5rem;"></i> 
+                    <a href="https://wa.me/48690386721?text=I'm%20interested%20in%20Dynamics%20365%20solutions" target="_blank" style="color: #25D366; text-decoration: underline;">Chat on WhatsApp: +48 690 386 721</a>
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>About AEC</h3>
+                    <p>AFRIQUEEUROPECONNEXIONVMETC (AEC) is a leading digital transformation partner and Microsoft Partner, empowering businesses across Africa and Europe since 2017.</p>
+                    <p style="margin-top: 1rem; font-weight: 600; color: var(--yellow);">Aim High • Be Kind • Dare to be Different</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../company/about.html">About Us</a></li>
+                        <li><a href="../company/mission.html">Our Mission</a></li>
+                        <li><a href="../company/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="../services/ai-ml.html">AI & Machine Learning</a></li>
+                        <li><a href="../services/ERP.html">ERP Solutions</a></li>
+                        <li><a href="../services/crm.html">CRM Implementation</a></li>
+                        <li><a href="../services/cloud.html">Cloud Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/company/afriqueeuropeconnexionvmetc/posts/?feedView=all" target="_blank" rel="noopener noreferrer" class="linkedin" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.facebook.com/armelsandjongbusiness/" target="_blank" rel="noopener noreferrer" class="facebook" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/SandjongAr3472" target="_blank" rel="noopener noreferrer" class="twitter" title="X"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/afriqueeuropeconnexionvmetc237/" target="_blank" rel="noopener noreferrer" class="instagram" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/48690386721" target="_blank" rel="noopener noreferrer" class="whatsapp" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.researchgate.net/profile/Armel-Sandjong-Nantchouang?ev=hdr_xprf" target="_blank" rel="noopener noreferrer" class="researchgate" title="ResearchGate"><i class="fab fa-researchgate"></i></a>
+                        <a href="mailto:ArmelSandjong@afriqueeuropeconnexionvmetc.com" class="email" title="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                    <p style="margin-top: 1.5rem;">
+                        <strong>Email:</strong> <a href="mailto:ArmelSandjong@afriqueeuropeconnexionvmetc.com" style="color: rgba(255,255,255,0.8);">ArmelSandjong@afriqueeuropeconnexionvmetc.com</a><br>
+                        <strong>Phone:</strong> <a href="tel:+48690386721" style="color: rgba(255,255,255,0.8);">+48 690 386 721</a><br>
+                        <strong>WhatsApp:</strong> <a href="https://wa.me/48690386721" style="color: #25D366;" target="_blank">Chat with us</a>
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2025 AFRIQUEEUROPECONNEXIONVMETC (AEC). All Rights Reserved. | Designed by Armel Sandjong Nantchouang | <i class="fab fa-microsoft"></i> Microsoft Partner
+            </div>
+        </div>
+    </footer>
+
+    <div class="floating-social">
+        <a href="https://www.linkedin.com/company/afriqueeuropeconnexionvmetc/posts/?feedView=all" target="_blank" class="linkedin" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.facebook.com/armelsandjongbusiness/" target="_blank" class="facebook" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://x.com/SandjongAr3472" target="_blank" class="twitter" title="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://wa.me/48690386721" target="_blank" class="whatsapp" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/afriqueeuropeconnexionvmetc237/" target="_blank" class="instagram" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.researchgate.net/profile/Armel-Sandjong-Nantchouang?ev=hdr_xprf" target="_blank" class="researchgate" title="ResearchGate"><i class="fab fa-researchgate"></i></a>
     </div>
-  </header>
-  <main>
-    <section class="hero" style="padding:60px 0 40px 0;">
-      <div class="container">
-        <h1><i class="fas fa-robot"></i> AI & Machine Learning</h1>
-        <p>
-          Unlock the power of Artificial Intelligence and Machine Learning for your business. We deliver custom AI solutions, automation, and analytics to help you innovate and grow.
-        </p>
-      </div>
-    </section>
-    <section class="container" style="padding:40px 0;">
-      <h2>Our AI & ML Services</h2>
-      <ul>
-        <li>Process Automation</li>
-        <li>Predictive Analytics</li>
-        <li>Natural Language Processing</li>
-        <li>Data-Driven Insights</li>
-      </ul>
-      <a href="../consultation.html" class="cta-btn">Book a Free Consultation</a>
-    </section>
-  </main>
-  <footer class="footer">
-    <div class="footer-content">
-      <div class="footer-col">
-        <h3>About AEC</h3>
-        <p>
-          AFRIQUEEUROPECONNEXIONVMETC (AEC) is a leading digital transformation partner, empowering Africa through technology, innovation, and collaboration.
-        </p>
-      </div>
-      <div class="footer-col">
-        <h3>Quick Links</h3>
-        <ul class="footer-links">
-          <li><a href="../company/about.html">About</a></li>
-          <li><a href="ai-ml.html">AI & ML</a></li>
-          <li><a href="../resources/research-insights.html">Research</a></li>
-          <li><a href="../csr/social-impact.html">Social Impact</a></li>
-          <li><a href="../company/contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h3>Connect</h3>
-        <ul class="footer-links">
-          <li><a href="mailto:afriqueeuropeconnexionvmetc@gmail.com">Email</a></li>
-          <li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
-          <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
-          <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      &copy; 2025 AFRIQUEEUROPECONNEXIONVMETC (AEC). All Rights Reserved.
-    </div>
-  </footer>
 </body>
 </html>
