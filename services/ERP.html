@@ -9,30 +9,53 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <nav>
-                <a href="../index.html" class="logo">
-                    <i class="fas fa-globe"></i> AFRIQUEEUROPECONNEXIONVMETC
-                </a>
-                <ul class="nav-links">
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../company/about.html">About</a></li>
-                    <li><a href="../company/mission.html">Mission</a></li>
-                    <li><a href="ai-ml.html">AI & ML</a></li>
-                    <li><a href="ERP.html" class="active">ERP</a></li>
-                    <li><a href="crm.html">CRM</a></li>
-                    <li><a href="cloud.html">Cloud</a></li>
-                    <li><a href="business-analysis.html">Business Analysis</a></li>
-                    <li><a href="web-marketing.html">Web Marketing</a></li>
-                    <li><a href="../resources/research-insights.html">Research</a></li>
-                    <li><a href="../company/Volunteer.html">Volunteer</a></li>
-                    <li><a href="../consultation.html">Consultation</a></li>
-                    <li><a href="../company/contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+<header>
+    <div class="container">
+        <nav>
+            <a href="../index.html" class="logo">
+                <i class="fas fa-globe"></i> AEC
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../company/about.html">About</a></li>
+                <li><a href="../company/mission.html">Mission</a></li>
+                
+                <!-- Services Dropdown -->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">
+                        Services <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="ai-ml.html"><i class="fas fa-robot"></i> AI & Machine Learning</a>
+                        <a href="ERP.html"><i class="fas fa-project-diagram"></i> ERP Solutions</a>
+                        <a href="crm.html"><i class="fas fa-users"></i> CRM Implementation</a>
+                        <a href="cloud.html"><i class="fas fa-cloud"></i> Cloud Services</a>
+                        <a href="business-analysis.html"><i class="fas fa-chart-line"></i> Business Analysis</a>
+                        <a href="web-marketing.html"><i class="fas fa-globe"></i> Web & Marketing</a>
+                    </div>
+                </li>
+
+                <!-- Resources Dropdown -->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">
+                        Resources <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="../resources/research-insights.html"><i class="fas fa-book"></i> Research & Insights</a>
+                        <a href="../resources/industry-trends.html"><i class="fas fa-chart-bar"></i> Industry Trends</a>
+                        <a href="../resources/case-studies.html"><i class="fas fa-file-alt"></i> Case Studies</a>
+                    </div>
+                </li>
+
+                <li><a href="../company/Volunteer.html">Volunteer</a></li>
+                <li><a href="../company/career.html">Careers</a></li>
+                <li><a href="../consultation.html" class="cta-btn">Free Consultation</a></li>
+                <li><a href="../company/contact.html">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+        </nav>
+    </div>
+</header>
 
     <main>
         <section class="hero">
