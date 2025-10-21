@@ -1,38 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us | AFRIQUEEUROPECONNEXIONVMETC</title>
-    <meta name="description" content="Get in touch with AFRIQUEEUROPECONNEXIONVMETC. Multiple ways to reach us - phone, email, WhatsApp, or visit our offices in Douala and Krakow.">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <nav>
-                <a href="../index.html" class="logo">
-                    <i class="fas fa-globe"></i> AFRIQUEEUROPECONNEXIONVMETC
-                </a>
-                <ul class="nav-links">
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="mission.html">Mission</a></li>
-                    <li><a href="../services/ai-ml.html">AI & ML</a></li>
-                    <li><a href="../services/ERP.html">ERP</a></li>
-                    <li><a href="../services/crm.html">CRM</a></li>
-                    <li><a href="../services/cloud.html">Cloud</a></li>
-                    <li><a href="../services/business-analysis.html">Business Analysis</a></li>
-                    <li><a href="../services/web-marketing.html">Web Marketing</a></li>
-                    <li><a href="../resources/research-insights.html">Research</a></li>
-                    <li><a href="Volunteer.html">Volunteer</a></li>
-                    <li><a href="../consultation.html">Consultation</a></li>
-                    <li><a href="contact.html" class="active">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+<!-- FOR COMPANY FOLDER FILES (company/*.html) -->
+<!-- Use this navigation with ../ prefix: -->
+<header>
+    <div class="container">
+        <nav>
+            <a href="../index.html" class="logo">
+                <i class="fas fa-globe"></i> AEC
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="mission.html">Mission</a></li>
+                
+                <!-- Services Dropdown -->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">
+                        Services <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="../services/ai-ml.html"><i class="fas fa-robot"></i> AI & Machine Learning</a>
+                        <a href="../services/ERP.html"><i class="fas fa-project-diagram"></i> ERP Solutions</a>
+                        <a href="../services/crm.html"><i class="fas fa-users"></i> CRM Implementation</a>
+                        <a href="../services/cloud.html"><i class="fas fa-cloud"></i> Cloud Services</a>
+                        <a href="../services/business-analysis.html"><i class="fas fa-chart-line"></i> Business Analysis</a>
+                        <a href="../services/web-marketing.html"><i class="fas fa-globe"></i> Web & Marketing</a>
+                    </div>
+                </li>
+
+                <!-- Resources Dropdown -->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">
+                        Resources <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="../resources/research-insights.html"><i class="fas fa-book"></i> Research & Insights</a>
+                        <a href="../resources/industry-trends.html"><i class="fas fa-chart-bar"></i> Industry Trends</a>
+                        <a href="../resources/case-studies.html"><i class="fas fa-file-alt"></i> Case Studies</a>
+                    </div>
+                </li>
+
+                <li><a href="Volunteer.html">Volunteer</a></li>
+                <li><a href="career.html">Careers</a></li>
+                <li><a href="../consultation.html" class="cta-btn">Free Consultation</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+        </nav>
+    </div>
+</header>
+
 
     <main>
         <section class="hero">
