@@ -1,110 +1,428 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Cloud | AFRIQUEEUROPECONNEXIONVMETC</title>
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research & Insights | AFRIQUEEUROPECONNEXIONVMETC</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-<header>
-    <div class="container">
-        <nav>
-            <a href="../index.html" class="logo">
-                <i class="fas fa-globe"></i> AEC
-            </a>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../company/about.html">About</a></li>
-                <li><a href="../company/mission.html">Mission</a></li>
-                
-                <!-- Services Dropdown -->
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle">
-                        Services <i class="fas fa-chevron-down"></i>
-                    </a>
-                    <div class="dropdown-menu">
-                        <a href="../services/ai-ml.html"><i class="fas fa-robot"></i> AI & Machine Learning</a>
-                        <a href="../services/ERP.html"><i class="fas fa-project-diagram"></i> ERP Solutions</a>
-                        <a href="../services/crm.html"><i class="fas fa-users"></i> CRM Implementation</a>
-                        <a href="../services/cloud.html"><i class="fas fa-cloud"></i> Cloud Services</a>
-                        <a href="../services/business-analysis.html"><i class="fas fa-chart-line"></i> Business Analysis</a>
-                        <a href="../services/web-marketing.html"><i class="fas fa-globe"></i> Web & Marketing</a>
-                    </div>
-                </li>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="../index.html" class="logo">
+                    <i class="fas fa-globe"></i> AEC
+                </a>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../company/about.html">About</a></li>
+                    <li><a href="../company/mission.html">Mission</a></li>
+                    
+                    <!-- Services Dropdown -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">
+                            Services <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="../services/ai-ml.html"><i class="fas fa-robot"></i> AI & Machine Learning</a>
+                            <a href="../services/ERP.html"><i class="fas fa-project-diagram"></i> ERP Solutions</a>
+                            <a href="../services/crm.html"><i class="fas fa-users"></i> CRM Implementation</a>
+                            <a href="../services/cloud.html"><i class="fas fa-cloud"></i> Cloud Services</a>
+                            <a href="../services/business-analysis.html"><i class="fas fa-chart-line"></i> Business Analysis</a>
+                            <a href="../services/web-marketing.html"><i class="fas fa-globe"></i> Web & Marketing</a>
+                        </div>
+                    </li>
 
-                <!-- Resources Dropdown -->
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle">
-                        Resources <i class="fas fa-chevron-down"></i>
-                    </a>
-                    <div class="dropdown-menu">
-                        <a href="research-insights.html"><i class="fas fa-book"></i> Research & Insights</a>
-                        <a href="industry-trends.html"><i class="fas fa-chart-bar"></i> Industry Trends</a>
-                        <a href="case-studies.html"><i class="fas fa-file-alt"></i> Case Studies</a>
-                    </div>
-                </li>
+                    <!-- Resources Dropdown -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">
+                            Resources <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="research-insights.html"><i class="fas fa-book"></i> Research & Insights</a>
+                            <a href="industry-trends.html"><i class="fas fa-chart-bar"></i> Industry Trends</a>
+                            <a href="case-studies.html"><i class="fas fa-file-alt"></i> Case Studies</a>
+                        </div>
+                    </li>
 
-                <li><a href="../company/Volunteer.html">Volunteer</a></li>
-                <li><a href="../company/career.html">Careers</a></li>
-                <li><a href="../consultation.html" class="cta-btn">Free Consultation</a></li>
-                <li><a href="../company/contact.html">Contact</a></li>
-            </ul>
-            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
-        </nav>
-    </div>
-</header>
-  <main>
-    <section class="hero" style="padding:60px 0 40px 0;">
-      <div class="container">
-        <h1><i class="fas fa-robot"></i> AI & Machine Learning</h1>
-        <p>
-          Unlock the power of Artificial Intelligence and Machine Learning for your business. We deliver custom AI solutions, automation, and analytics to help you innovate and grow.
-        </p>
-      </div>
-    </section>
-    <section class="container" style="padding:40px 0;">
-      <h2>Our AI & ML Services</h2>
-      <ul>
-        <li>Process Automation</li>
-        <li>Predictive Analytics</li>
-        <li>Natural Language Processing</li>
-        <li>Data-Driven Insights</li>
-      </ul>
-      <a href="../consultation.html" class="cta-btn">Book a Free Consultation</a>
-    </section>
-  </main>
-  <footer class="footer">
-    <div class="footer-content">
-      <div class="footer-col">
-        <h3>About AEC</h3>
-        <p>
-          AFRIQUEEUROPECONNEXIONVMETC (AEC) is a leading digital transformation partner, empowering Africa through technology, innovation, and collaboration.
-        </p>
-      </div>
-      <div class="footer-col">
-        <h3>Quick Links</h3>
-        <ul class="footer-links">
-          <li><a href="../company/about.html">About</a></li>
-          <li><a href="ai-ml.html">AI & ML</a></li>
-          <li><a href="../resources/research-insights.html">Research</a></li>
-          <li><a href="../csr/social-impact.html">Social Impact</a></li>
-          <li><a href="../company/contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h3>Connect</h3>
-        <ul class="footer-links">
-          <li><a href="mailto:afriqueeuropeconnexionvmetc@gmail.com">Email</a></li>
-          <li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
-          <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
-          <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      &copy; 2025 AFRIQUEEUROPECONNEXIONVMETC (AEC). All Rights Reserved.
-    </div>
-  </footer>
+                    <li><a href="../company/Volunteer.html">Volunteer</a></li>
+                    <li><a href="../company/career.html">Careers</a></li>
+                    <li><a href="../consultation.html" class="cta-btn">Free Consultation</a></li>
+                    <li><a href="../company/contact.html">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1><i class="fas fa-book"></i> Research & Business Insights</h1>
+                <p>
+                    Explore our extensive research on digital transformation, business performance optimization, and market analysis. Our insights help businesses forecast trends, identify opportunities, and make data-driven decisions for sustainable growth.
+                </p>
+                <a href="../consultation.html" class="btn-primary">Discuss Your Business Needs</a>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2>About Our Research Lead</h2>
+            <div class="grid-2 mt-3">
+                <div>
+                    <h3 style="color: var(--sky-blue);">Armel Sandjong Nantchouang, MBA</h3>
+                    <p>
+                        <strong>Academia Lecturer | Independent Researcher | Business Analyst</strong><br>
+                        WSB University, Kraków, Poland
+                    </p>
+                    <p>
+                        With expertise spanning digital transformation, ERP implementation, and business performance analysis, Armel brings a unique blend of academic rigor and practical business insight to AFRIQUEEUROPECONNEXIONVMETC. His research focuses on understanding how technology drives business growth and how organizations can leverage digital tools to achieve competitive advantage.
+                    </p>
+                    <div style="margin-top: 1.5rem;">
+                        <p><strong>Research Focus Areas:</strong></p>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="margin: 0.5rem 0;"><i class="fas fa-check" style="color: var(--teal); margin-right: 0.5rem;"></i> ERP Impact on Business Performance</li>
+                            <li style="margin: 0.5rem 0;"><i class="fas fa-check" style="color: var(--teal); margin-right: 0.5rem;"></i> Digital Transformation Strategies</li>
+                            <li style="margin: 0.5rem 0;"><i class="fas fa-check" style="color: var(--teal); margin-right: 0.5rem;"></i> Market Analysis & Business Forecasting</li>
+                            <li style="margin: 0.5rem 0;"><i class="fas fa-check" style="color: var(--teal); margin-right: 0.5rem;"></i> Technology-Driven Innovation</li>
+                            <li style="margin: 0.5rem 0;"><i class="fas fa-check" style="color: var(--teal); margin-right: 0.5rem;"></i> Cross-Continental Business Development</li>
+                        </ul>
+                    </div>
+                    <div style="margin-top: 1.5rem;">
+                        <a href="https://orcid.org/0000-0002-2839-2363" target="_blank" style="display: inline-block; padding: 0.75rem 1.5rem; background: #a6ce39; color: white; text-decoration: none; border-radius: 5px; font-weight: 600;">
+                            <i class="fas fa-graduation-cap"></i> View ORCID Profile
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3 style="color: var(--red);">Research Impact</h3>
+                    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-top: 1rem;">
+                        <div style="text-align: center; padding: 1rem; background: var(--light-bg); border-radius: 8px;">
+                            <div style="font-size: 2rem; font-weight: bold; color: var(--sky-blue);">24</div>
+                            <div style="font-size: 0.9rem; color: #666;">Published Works</div>
+                        </div>
+                        <div style="text-align: center; padding: 1rem; background: var(--light-bg); border-radius: 8px;">
+                            <div style="font-size: 2rem; font-weight: bold; color: var(--teal);">4</div>
+                            <div style="font-size: 0.9rem; color: #666;">Citations</div>
+                        </div>
+                        <div style="text-align: center; padding: 1rem; background: var(--light-bg); border-radius: 8px;">
+                            <div style="font-size: 2rem; font-weight: bold; color: var(--orange);">38.4</div>
+                            <div style="font-size: 0.9rem; color: #666;">Research Score</div>
+                        </div>
+                        <div style="text-align: center; padding: 1rem; background: var(--light-bg); border-radius: 8px;">
+                            <div style="font-size: 2rem; font-weight: bold; color: var(--red);">7+</div>
+                            <div style="font-size: 0.9rem; color: #666;">Years Experience</div>
+                        </div>
+                    </div>
+                    <p style="margin-top: 1.5rem; font-size: 0.95rem; color: #555;">
+                        <strong>Credentials:</strong> MBA, Project Management Professional, Agile Scrum, AI & ML, Business Analysis, Banking & Finance
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-light">
+            <div class="container">
+                <h2>Featured Business Research</h2>
+                <p>Our research translates complex business challenges into actionable strategies that drive measurable results.</p>
+
+                <div class="grid-3 mt-3">
+                    <div class="card">
+                        <div style="background: linear-gradient(135deg, var(--sky-blue), var(--teal)); padding: 0.5rem 1rem; border-radius: 20px; display: inline-block; color: white; font-size: 0.85rem; font-weight: 600; margin-bottom: 1rem;">
+                            MASTER THESIS
+                        </div>
+                        <h3>Impact of ERP Systems on Business Performance</h3>
+                        <p style="color: #666; font-size: 0.9rem; margin-bottom: 1rem;">March 2024 | Contemporary Management</p>
+                        <p>
+                            Comprehensive analysis of how Enterprise Resource Planning systems transform business operations, improve efficiency, and drive competitive advantage. This research provides actionable insights for companies considering ERP implementation or optimization.
+                        </p>
+                        <div style="margin-top: 1rem;">
+                            <strong style="color: var(--sky-blue);">Key Business Insights:</strong>
+                            <ul style="margin-top: 0.5rem;">
+                                <li>ROI metrics for ERP investments</li>
+                                <li>Performance improvement benchmarks</li>
+                                <li>Implementation success factors</li>
+                                <li>Change management strategies</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div style="background: linear-gradient(135deg, var(--red), var(--orange)); padding: 0.5rem 1rem; border-radius: 20px; display: inline-block; color: white; font-size: 0.85rem; font-weight: 600; margin-bottom: 1rem;">
+                            MARKET ANALYSIS
+                        </div>
+                        <h3>Market Analysis: AFRIQUEEUROPECONNEXIONVMETC</h3>
+                        <p style="color: #666; font-size: 0.9rem; margin-bottom: 1rem;">January 2024 | Business Strategy</p>
+                        <p>
+                            In-depth market analysis identifying opportunities in the Africa-Europe digital services corridor. This study examines market dynamics, competitive landscape, and growth strategies for businesses operating across continents.
+                        </p>
+                        <div style="margin-top: 1rem;">
+                            <strong style="color: var(--red);">Strategic Findings:</strong>
+                            <ul style="margin-top: 0.5rem;">
+                                <li>Market size and growth projections</li>
+                                <li>Competitive positioning strategies</li>
+                                <li>Customer segment analysis</li>
+                                <li>Revenue optimization models</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div style="background: linear-gradient(135deg, var(--yellow), var(--orange)); padding: 0.5rem 1rem; border-radius: 20px; display: inline-block; color: white; font-size: 0.85rem; font-weight: 600; margin-bottom: 1rem;">
+                            RESEARCH ARTICLE
+                        </div>
+                        <h3>Economic Impact of Cross-Border Business Migration</h3>
+                        <p style="color: #666; font-size: 0.9rem; margin-bottom: 1rem;">October 2023 | WSB Journal of Business and Finance</p>
+                        <p>
+                            Analysis of how international business migration creates economic value, drives innovation, and strengthens trade relationships between African and European markets. Essential reading for businesses exploring international expansion.
+                        </p>
+                        <div style="margin-top: 1rem;">
+                            <strong style="color: var(--yellow);">Business Applications:</strong>
+                            <ul style="margin-top: 0.5rem;">
+                                <li>International expansion strategies</li>
+                                <li>Cross-cultural business insights</li>
+                                <li>Market entry frameworks</li>
+                                <li>Economic impact assessment</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2>Business Intelligence & Technology Research</h2>
+            <p>Explore our collection of research focused on helping businesses leverage technology for growth and competitive advantage.</p>
+
+            <div class="grid-2 mt-3">
+                <div class="card">
+                    <i class="fas fa-lightbulb" style="font-size: 2.5rem; color: var(--yellow); margin-bottom: 1rem;"></i>
+                    <h3>Technology Innovation & Human Adaptation</h3>
+                    <p style="color: #666; font-size: 0.9rem; margin-bottom: 1rem;">October 2023 | Research Proposal</p>
+                    <p>
+                        Forward-thinking research examining how businesses must adapt to technological evolution while maintaining human-centric values. This work helps leaders understand how to balance automation with employee engagement and organizational culture.
+                    </p>
+                    <div style="margin-top: 1rem; padding: 1rem; background: var(--light-bg); border-radius: 8px;">
+                        <strong>Value to Your Business:</strong>
+                        <p style="margin-top: 0.5rem; font-size: 0.95rem;">
+                            Understanding technology adoption patterns helps organizations implement change more effectively, reduce resistance, and maximize ROI on technology investments.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-certificate" style="font-size: 2.5rem; color: var(--teal); margin-bottom: 1rem;"></i>
+                    <h3>Professional Certification Portfolio</h3>
+                    <p style="color: #666; font-size: 0.9rem; margin-bottom: 1rem;">December 2023 | Professional Development</p>
+                    <p>
+                        Comprehensive portfolio demonstrating expertise across multiple business-critical domains including Project Management, Agile Methodologies, AI & Machine Learning, Statistical Analysis, and Financial Management.
+                    </p>
+                    <div style="margin-top: 1rem;">
+                        <strong style="color: var(--teal);">Certified Expertise:</strong>
+                        <ul style="margin-top: 0.5rem;">
+                            <li>Project Management Professional (PMP)</li>
+                            <li>Agile Scrum Master</li>
+                            <li>AI & Machine Learning</li>
+                            <li>Advanced Statistics & Mathematics</li>
+                            <li>Banking & Financial Analysis</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-brain" style="font-size: 2.5rem; color: var(--orange); margin-bottom: 1rem;"></i>
+                    <h3>Organizational Stress Management</h3>
+                    <p style="color: #666; font-size: 0.9rem; margin-bottom: 1rem;">September 2023 | Business Psychology</p>
+                    <p>
+                        Practical strategies for managing workplace stress and building resilient organizations. This research provides frameworks for leaders to create healthier work environments that improve productivity and employee retention.
+                    </p>
+                    <div style="margin-top: 1rem; padding: 1rem; background: var(--light-bg); border-radius: 8px;">
+                        <strong>Business Impact:</strong>
+                        <p style="margin-top: 0.5rem; font-size: 0.95rem;">
+                            Reduced turnover, improved team performance, and enhanced organizational culture through evidence-based stress management practices.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <i class="fas fa-book-open" style="font-size: 2.5rem; color: var(--sky-blue); margin-bottom: 1rem;"></i>
+                    <h3>Business Leadership & Personal Growth</h3>
+                    <p style="color: #666; font-size: 0.9rem; margin-bottom: 1rem;">May-June 2024 | Business Philosophy</p>
+                    <p>
+                        Published works exploring the intersection of conscious leadership, business success, and personal development. Available in both English ("Conscious Contemplation") and French ("Essai de la Conscience"), these books provide frameworks for leaders seeking sustainable business growth while maintaining work-life balance.
+                    </p>
+                    <div style="margin-top: 1rem;">
+                        <strong style="color: var(--sky-blue);">Leadership Insights:</strong>
+                        <ul style="margin-top: 0.5rem;">
+                            <li>Purpose-driven business strategies</li>
+                            <li>Sustainable growth frameworks</li>
+                            <li>Leadership consciousness development</li>
+                            <li>Work-life integration models</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-light">
+            <div class="container">
+                <h2>How Our Research Benefits Your Business</h2>
+                <div class="grid-3 mt-3">
+                    <div class="card">
+                        <i class="fas fa-chart-line" style="font-size: 2rem; color: var(--teal); margin-bottom: 1rem;"></i>
+                        <h3>Data-Driven Decision Making</h3>
+                        <p>
+                            Our research provides empirical evidence and proven frameworks that help you make confident business decisions backed by data and real-world results.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-rocket" style="font-size: 2rem; color: var(--red); margin-bottom: 1rem;"></i>
+                        <h3>Competitive Advantage</h3>
+                        <p>
+                            Stay ahead of industry trends and understand emerging opportunities before your competitors. Our insights help you position your business for future growth.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-cogs" style="font-size: 2rem; color: var(--orange); margin-bottom: 1rem;"></i>
+                        <h3>Operational Excellence</h3>
+                        <p>
+                            Apply proven methodologies and best practices from our research to optimize your operations, reduce costs, and improve overall business performance.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-globe-europe" style="font-size: 2rem; color: var(--sky-blue); margin-bottom: 1rem;"></i>
+                        <h3>Market Expansion Insights</h3>
+                        <p>
+                            Leverage our cross-continental research to understand market dynamics, cultural considerations, and strategic approaches for international business growth.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-users-cog" style="font-size: 2rem; color: var(--yellow); margin-bottom: 1rem;"></i>
+                        <h3>Technology Implementation</h3>
+                        <p>
+                            Our research on ERP, AI, and digital transformation provides roadmaps for successful technology adoption that actually delivers ROI and business value.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-balance-scale" style="font-size: 2rem; color: var(--teal); margin-bottom: 1rem;"></i>
+                        <h3>Risk Mitigation</h3>
+                        <p>
+                            Learn from documented case studies and research findings to avoid common pitfalls and reduce risks in your business transformation initiatives.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2>Research-Backed Consulting Services</h2>
+            <p>
+                At AFRIQUEEUROPECONNEXIONVMETC, we don't just conduct research—we apply it. Every insight, methodology, and framework from our research is integrated into our consulting services to deliver proven results for your business.
+            </p>
+
+            <div class="grid-2 mt-3">
+                <div class="card">
+                    <h3 style="color: var(--sky-blue);"><i class="fas fa-project-diagram"></i> ERP Strategy Consulting</h3>
+                    <p>
+                        Based on extensive research into ERP impact on business performance, we help you select, implement, and optimize ERP systems that deliver measurable ROI. Our evidence-based approach ensures successful digital transformation.
+                    </p>
+                    <a href="../services/ERP.html" class="btn-secondary" style="margin-top: 1rem;">Explore ERP Solutions</a>
+                </div>
+
+                <div class="card">
+                    <h3 style="color: var(--teal);"><i class="fas fa-globe"></i> Market Expansion Strategy</h3>
+                    <p>
+                        Leverage our market analysis research to expand your business internationally. We provide data-driven strategies for entering African and European markets with confidence and clarity.
+                    </p>
+                    <a href="../consultation.html" class="btn-secondary" style="margin-top: 1rem;">Book Strategy Session</a>
+                </div>
+
+                <div class="card">
+                    <h3 style="color: var(--red);"><i class="fas fa-robot"></i> AI & Digital Transformation</h3>
+                    <p>
+                        Our research in technology adoption and AI implementation guides businesses through successful digital transformation. We help you leverage emerging technologies while maintaining organizational effectiveness.
+                    </p>
+                    <a href="../services/ai-ml.html" class="btn-secondary" style="margin-top: 1rem;">Discover AI Solutions</a>
+                </div>
+
+                <div class="card">
+                    <h3 style="color: var(--orange);"><i class="fas fa-chart-bar"></i> Business Analysis & Forecasting</h3>
+                    <p>
+                        Utilize our research methodologies to analyze your business performance, identify improvement opportunities, and forecast future trends. Make strategic decisions backed by rigorous analysis.
+                    </p>
+                    <a href="../services/business-analysis.html" class="btn-secondary" style="margin-top: 1rem;">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-light">
+            <div class="container text-center">
+                <h2>Let's Apply Research to Your Business Challenges</h2>
+                <p style="max-width: 800px; margin: 0 auto 2rem;">
+                    Ready to leverage proven research insights to drive your business forward? Book a free consultation to discuss how our evidence-based approach can help you achieve your business goals, optimize operations, and capture new market opportunities.
+                </p>
+                <a href="../consultation.html" class="btn-primary">Schedule Your Free Consultation</a>
+                <a href="../company/contact.html" class="btn-secondary" style="margin-left: 1rem;">Contact Our Team</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>About AEC</h3>
+                    <p>
+                        AFRIQUEEUROPECONNEXIONVMETC (AEC) is a leading digital transformation partner, empowering businesses across Africa and Europe through technology, innovation, and research-backed strategies since 2017.
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../company/about.html">About</a></li>
+                        <li><a href="../services/ai-ml.html">AI & ML</a></li>
+                        <li><a href="research-insights.html">Research</a></li>
+                        <li><a href="../csr/social-impact.html">Social Impact</a></li>
+                        <li><a href="../company/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="../services/erp.html">ERP Solutions</a></li>
+                        <li><a href="../services/crm.html">CRM Implementation</a></li>
+                        <li><a href="../services/cloud.html">Cloud Services</a></li>
+                        <li><a href="../services/business-analysis.html">Business Analysis</a></li>
+                        <li><a href="../services/web-marketing.html">Web Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Connect</h3>
+                    <ul class="footer-links">
+                        <li><a href="mailto:contact@aec.com">Email Us</a></li>
+                        <li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+                        <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    </ul>
+                    <p style="margin-top: 1rem;">
+                        <strong>Phone:</strong> +48 690 386 721<br>
+                        <strong>Locations:</strong> Douala, Cameroon | Krakow, Poland
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2025 AFRIQUEEUROPECONNEXIONVMETC (AEC). All Rights Reserved. | Designed by Armel Sandjong Nantchouang
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
 </body>
 </html>
