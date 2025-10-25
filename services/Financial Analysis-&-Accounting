@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Analysis & Accounting | AFRIQUEEUROPECONNEXIONVMETC</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="../index.html" class="logo">
+                    <i class="fas fa-globe"></i> AEC
+                </a>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="mission.html">Mission</a></li>
+                    
+                    <!-- Services Dropdown -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">
+                            Services <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="../services/ai-ml.html"><i class="fas fa-robot"></i> AI & Machine Learning</a>
+                            <a href="../services/ERP.html"><i class="fas fa-project-diagram"></i> ERP Solutions</a>
+                            <a href="../services/crm.html"><i class="fas fa-users"></i> CRM Implementation</a>
+                            <a href="../services/cloud.html"><i class="fas fa-cloud"></i> Cloud Services</a>
+                            <a href="../services/business-analysis.html"><i class="fas fa-chart-line"></i> Business Analysis</a>
+                            <a href="../services/web-marketing.html"><i class="fas fa-globe"></i> Web & Marketing</a>
+                        </div>
+                    </li>
+
+                    <!-- Resources Dropdown -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">
+                            Resources <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="../resources/research-insights.html"><i class="fas fa-book"></i> Research & Insights</a>
+                            <a href="../resources/industry-trends.html"><i class="fas fa-chart-bar"></i> Industry Trends</a>
+                            <a href="../resources/case-studies.html"><i class="fas fa-file-alt"></i> Case Studies</a>
+                        </div>
+                    </li>
+
+                    <li><a href="Volunteer.html">Volunteer</a></li>
+                    <li><a href="career.html">Legal & Fiscal</a></li>
+                    <li><a href="financial-accounting.html">Finance & Accounting</a></li>
+                    <li><a href="../consultation.html" class="cta-btn">Free Consultation</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1><i class="fas fa-chart-pie"></i> Financial Analysis & Accounting Services</h1>
+                <p>
+                    Expert financial management, strategic analysis, and comprehensive accounting services to drive your business growth and ensure financial health across Africa and Europe.
+                </p>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="grid-2 mt-3">
+                <div>
+                    <h2>Your Financial Success Partner</h2>
+                    <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+                        At AFRIQUEEUROPECONNEXIONVMETC, we provide comprehensive financial analysis and accounting services designed to give you clear visibility into your business performance, optimize cash flow, and support strategic decision-making.
+                    </p>
+                    <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+                        Our financial division combines traditional accounting expertise with modern analytical tools and technologies to deliver insights that drive profitability and sustainable growth for businesses operating across continents.
+                    </p>
+                    <div class="card" style="margin-top: 2rem; background: linear-gradient(135deg, var(--teal), var(--sky-blue)); color: white;">
+                        <h3 style="margin-bottom: 1rem;"><i class="fas fa-target"></i> Our Mission</h3>
+                        <p style="font-size: 1.05rem; line-height: 1.7;">
+                            To empower businesses with accurate financial information, strategic insights, and robust accounting systems that enable confident decision-making and long-term financial success.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="card">
+                        <h3 style="color: var(--orange); margin-bottom: 1.5rem;">Why Choose Our Financial Services?</h3>
+                        <ul style="line-height: 2;">
+                            <li><strong>Cross-Border Expertise:</strong> Deep understanding of African and European financial regulations and tax systems</li>
+                            <li><strong>Technology-Driven:</strong> Modern accounting software and analytical tools for real-time insights</li>
+                            <li><strong>Strategic Focus:</strong> Not just numbers—we provide actionable business intelligence</li>
+                            <li><strong>Compliance Assured:</strong> Stay compliant with local and international financial regulations</li>
+                            <li><strong>Scalable Solutions:</strong> Services that grow with your business from startup to enterprise</li>
+                            <li><strong>Multilingual Support:</strong> Services in English, French, and Polish</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-light">
+            <div class="container">
+                <h2>Our Financial Services</h2>
+                <p style="text-align: center; max-width: 800px; margin: 0 auto 2rem;">
+                    Comprehensive financial solutions tailored to your business needs and growth objectives
+                </p>
+                <div class="grid-3 mt-3">
+                    <div class="card">
+                        <i class="fas fa-calculator" style="font-size: 2.5rem; color: var(--sky-blue); margin-bottom: 1rem;"></i>
+                        <h3>Bookkeeping & Accounting</h3>
+                        <p>Professional day-to-day financial record keeping and management to ensure accuracy and compliance.</p>
+                        <ul style="margin-top: 1rem; font-size: 0.95rem;">
+                            <li>General ledger management</li>
+                            <li>Accounts payable/receivable</li>
+                            <li>Bank reconciliation</li>
+                            <li>Payroll processing</li>
+                            <li>Monthly closing procedures</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-file-invoice-dollar" style="font-size: 2.5rem; color: var(--teal); margin-bottom: 1rem;"></i>
+                        <h3>Financial Statement Preparation</h3>
+                        <p>Accurate and timely preparation of financial statements that comply with international accounting standards.</p>
+                        <ul style="margin-top: 1rem; font-size: 0.95rem;">
+                            <li>Balance sheets</li>
+                            <li>Income statements</li>
+                            <li>Cash flow statements</li>
+                            <li>Statement of changes in equity</li>
+                            <li>Notes to financial statements</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-chart-line" style="font-size: 2.5rem; color: var(--orange); margin-bottom: 1rem;"></i>
+                        <h3>Financial Analysis & Reporting</h3>
+                        <p>In-depth analysis of financial data to provide actionable insights and support strategic planning.</p>
+                        <ul style="margin-top: 1rem; font-size: 0.95rem;">
+                            <li>Ratio analysis</li>
+                            <li>Trend analysis</li>
+                            <li>Variance analysis</li>
+                            <li>Performance benchmarking</li>
+                            <li>Custom financial dashboards</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-coins" style="font-size: 2.5rem; color: var(--red); margin-bottom: 1rem;"></i>
+                        <h3>Budgeting & Forecasting</h3>
+                        <p>Strategic financial planning to help you allocate resources effectively and anticipate future needs.</p>
+                        <ul style="margin-top: 1rem; font-size: 0.95rem;">
+                            <li>Annual budget preparation</li>
+                            <li>Cash flow forecasting</li>
+                            <li>Scenario planning</li>
+                            <li>Budget vs. actual analysis</li>
+                            <li>Rolling forecasts</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-money-bill-wave" style="font-size: 2.5rem; color: var(--yellow); margin-bottom: 1rem;"></i>
+                        <h3>Cash Flow Management</h3>
+                        <p>Optimize your cash position and ensure you have the liquidity needed to operate and grow.</p>
+                        <ul style="margin-top: 1rem; font-size: 0.95rem;">
+                            <li>Cash flow analysis</li>
+                            <li>Working capital optimization</li>
+                            <li>Receivables management</li>
+                            <li>Payment scheduling</li>
+                            <li>Liquidity planning</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-receipt" style="font-size: 2.5rem; color: var(--sky-blue); margin-bottom: 1rem;"></i>
+                        <h3>Tax Planning & Compliance</h3>
+                        <p>Strategic tax planning and preparation to minimize liability while ensuring full compliance.</p>
+                        <ul style="margin-top: 1rem; font-size: 0.95rem;">
+                            <li>Tax strategy development</li>
+                            <li>Tax return preparation</li>
+                            <li>VAT compliance</li>
+                            <li>Tax optimization strategies</li>
+                            <li>Multi-jurisdiction tax support</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-search-dollar" style="font-size: 2.5rem; color: var(--teal); margin-bottom: 1rem;"></i>
+                        <h3>Financial Audits & Reviews</h3>
+                        <p>Independent examination of financial records to ensure accuracy, compliance, and integrity.</p>
+                        <ul style="margin-top: 1rem; font-size: 0.95rem;">
+                            <li>Internal audit services</li>
+                            <li>Compliance reviews</li>
+                            <li>Financial statement audits</li>
+                            <li>Operational audits</li>
+                            <li>Risk assessment</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-handshake" style="font-size: 2.5rem; color: var(--orange); margin-bottom: 1rem;"></i>
+                        <h3>Merger & Acquisition Support</h3>
+                        <p>Financial due diligence and valuation services for business acquisitions and mergers.</p>
+                        <ul style="margin-top: 1rem; font-size: 0.95rem;">
+                            <li>Financial due diligence</li>
+                            <li>Business valuation</li>
+                            <li>Deal structuring support</li>
+                            <li>Integration planning</li>
+                            <li>Post-merger financial analysis</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-seedling" style="font-size: 2.5rem; color: var(--red); margin-bottom: 1rem;"></i>
+                        <h3>Startup Financial Services</h3>
+                        <p>Specialized financial support for startups and early-stage businesses establishing financial foundations.</p>
+                        <ul style="margin-top: 1rem; font-size: 0.95rem;">
+                            <li>Financial system setup</li>
+                            <li>Investor-ready financial models</li>
+                            <li>Burn rate analysis</li>
+                            <li>Fundraising support</li>
+                            <li>Financial planning for growth</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-laptop-code" style="font-size: 2.5rem; color: var(--yellow); margin-bottom: 1rem;"></i>
+                        <h3>Accounting Software Implementation</h3>
+                        <p>Setup and optimization of modern accounting systems for efficient financial management.</p>
+                        <ul style="margin-top: 1rem; font-size: 0.95rem;">
+                            <li>Software selection guidance</li>
+                            <li>System implementation</li>
+                            <li>Data migration</li>
+                            <li>Staff training</li>
+                            <li>Ongoing technical support</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-university" style="font-size: 2.5rem; color: var(--sky-blue); margin-bottom: 1rem;"></i>
+                        <h3>CFO Advisory Services</h3>
+                        <p>Fractional CFO services providing strategic financial leadership without full-time commitment.</p>
+                        <ul style="margin-top: 1rem; font-size: 0.95rem;">
+                            <li>Financial strategy development</li>
+                            <li>Board reporting</li>
+                            <li>Investor relations support</li>
+                            <li>Capital structure optimization</li>
+                            <li>Risk management</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-globe-americas" style="font-size: 2.5rem; color: var(--teal); margin-bottom: 1rem;"></i>
+                        <h3>International Financial Management</h3>
+                        <p>Specialized support for businesses operating across multiple countries and currencies.</p>
+                        <ul style="margin-top: 1rem; font-size: 0.95rem;">
+                            <li>Multi-currency accounting</li>
+                            <li>Transfer pricing</li>
+                            <li>Foreign exchange management</li>
+                            <li>Consolidated reporting</li>
+                            <li>International tax compliance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2>Industries We Serve</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 2rem;">
+                We provide financial services tailored to the unique needs of various industries
+            </p>
+            <div class="grid-3 mt-3">
+                <div class="card">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                        <i class="fas fa-shopping-cart" style="font-size: 2rem; color: var(--sky-blue);"></i>
+                        <h3 style="color: var(--sky-blue); margin: 0;">Retail & E-commerce</h3>
+                    </div>
+                    <p>Inventory accounting, multi-channel revenue tracking, and margin analysis for retail businesses.</p>
+                </div>
+
+                <div class="card">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                        <i class="fas fa-industry" style="font-size: 2rem; color: var(--teal);"></i>
+                        <h3 style="color: var(--teal); margin: 0;">Manufacturing</h3>
+                    </div>
+                    <p>Cost accounting, production variance analysis, and inventory management for manufacturers.</p>
+                </div>
+
+                <div class="card">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                        <i class="fas fa-laptop-code" style="font-size: 2rem; color: var(--orange);"></i>
+                        <h3 style="color: var(--orange); margin: 0;">Technology & SaaS</h3>
+                    </div>
+                    <p>Revenue recognition, subscription metrics, and burn rate analysis for tech companies.</p>
+                </div>
+
+                <div class="card">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                        <i class="fas fa-briefcase" style="font-size: 2rem; color: var(--red);"></i>
+                        <h3 style="color: var(--red); margin: 0;">Professional Services</h3>
+                    </div>
+                    <p>Project-based accounting, time tracking integration, and profitability analysis by client.</p>
+                </div>
+
+                <div class="card">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                        <i class="fas fa-building" style="font-size: 2rem; color: var(--yellow);"></i>
+                        <h3 style="color: var(--yellow); margin: 0;">Real Estate</h3>
+                    </div>
+                    <p>Property accounting, rental income management, and investment property analysis.</p>
+                </div>
+
+                <div class="card">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                        <i class="fas fa-heartbeat" style="font-size: 2rem; color: var(--sky-blue);"></i>
+                        <h3 style="color: var(--sky-blue); margin: 0;">Healthcare</h3>
+                    </div>
+                    <p>Medical billing integration, insurance accounting, and compliance reporting.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-light">
+            <div class="container">
+                <h2>Our Financial Analysis Approach</h2>
+                <p style="text-align: center; max-width: 800px; margin: 0 auto 2rem;">
+                    We follow a structured methodology to deliver comprehensive financial insights
+                </p>
+                <div class="grid-3 mt-3">
+                    <div class="card" style="text-align: center;">
+                        <div style="width: 80px; height: 80px; border-radius: 50%; background: var(--sky-blue); color: white; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; margin: 0 auto 1.5rem;">1</div>
+                        <h3 style="color: var(--sky-blue);">Data Collection & Verification</h3>
+                        <p>Gather and verify all financial data ensuring accuracy and completeness before analysis begins.</p>
+                    </div>
+
+                    <div class="card" style="text-align: center;">
+                        <div style="width: 80px; height: 80px; border-radius: 50%; background: var(--teal); color: white; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; margin: 0 auto 1.5rem;">2</div>
+                        <h3 style="color: var(--teal);">Financial Ratio Analysis</h3>
+                        <p>Calculate and analyze key financial ratios to assess liquidity, profitability, and efficiency.</p>
+                    </div>
+
+                    <div class="card" style="text-align: center;">
+                        <div style="width: 80px; height: 80px; border-radius: 50%; background: var(--orange); color: white; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; margin: 0 auto 1.5rem;">3</div>
+                        <h3 style="color: var(--orange);">Trend & Variance Analysis</h3>
+                        <p>Identify patterns, trends, and variances comparing performance across periods and against budgets.</p>
+                    </div>
+
+                    <div class="card" style="text-align: center;">
+                        <div style="width: 80px; height: 80px; border-radius: 50%; background: var(--red); color: white; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; margin: 0 auto 1.5rem;">4</div>
+                        <h3 style="color: var(--red);">Benchmarking</h3>
+                        <p>Compare your performance against industry standards and best-in-class competitors.</p>
+                    </div>
+
+                    <div class="card" style="text-align: center;">
+                        <div style="width: 80px; height: 80px; border-radius: 50%; background: var(--yellow); color: white; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; margin: 0 auto 1.5rem;">5</div>
+                        <h3 style="color: var(--yellow);">Insights & Recommendations</h3>
+                        <p>Translate data into actionable insights with specific recommendations for improvement.</p>
+                    </div>
+
+                    <div class="card" style="text-align: center;">
+                        <div style="width: 80px; height: 80px; border-radius: 50%; background: var(--sky-blue); color: white; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; margin: 0 auto 1.5rem;">6</div>
+                        <h3 style="color: var(--sky-blue);">Implementation Support</h3>
+                        <p>Help you implement recommendations and track progress toward financial objectives.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2>Financial Analysis Tools & Technologies</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 2rem;">
+                We leverage cutting-edge tools and technologies to deliver superior financial insights
+            </p>
+            <div class="grid-2 mt-3">
+                <div class="card">
+                    <h3 style="color: var(--teal); margin-bottom: 1.5rem;"><i class="fas fa-tools"></i> Accounting Software</h3>
+                    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;">
+                        <div style="padding: 1rem; background: var(--light-bg); border-radius: 8px; text-align: center;">
+                            <i class="fas fa-check-circle" style="color: var(--teal); font-size: 1.5rem; margin-bottom: 0.5rem;"></i>
+                            <p style="font-weight: 600;">QuickBooks</p>
+                        </div>
+                        <div style="padding: 1rem; background: var(--light-bg); border-radius: 8px; text-align: center;">
+                            <i class="fas fa-check-circle" style="color: var(--teal); font-size: 1.5rem; margin-bottom: 0.5rem;"></i>
+                            <p style="font-weight: 600;">Xero</p>
+                        </div>
+                        <div style="padding: 1rem; background: var(--light-bg); border-radius: 8px; text-align: center;">
+                            <i class="fas fa-check-circle" style="color: var(--teal); font-size: 1.5rem; margin-bottom: 0.5rem;"></i>
+                            <p style="font-weight: 600;">SAP</p>
+                        </div>
+                        <div style="padding: 1rem; background: var(--light-bg); border-radius: 8px; text-align: center;">
+                            <i class="fas fa-check-circle" style="color: var(--teal); font-size: 1.5rem; margin-bottom: 0.5rem;"></i>
+                            <p style="font-weight: 600;">Sage</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3 style="color: var(--orange); margin-bottom: 1.5rem;"><i class="fas fa-chart-bar"></i> Analysis & BI Tools</h3>
+                    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;">
+                        <div style="padding: 1rem; background: var(--light-bg); border-radius: 8px; text-align: center;">
+                            <i class="fas fa-check-circle" style="color: var(--orange); font-size: 1.5rem; margin-bottom: 0.5rem;"></i>
+                            <p style="font-weight: 600;">Power BI</p>
+                        </div>
+                        <div style="padding: 1rem; background: var(--light-bg); border-radius: 8px; text-align: center;">
+                            <i class="fas fa-check-circle" style="color: var(--orange); font-size: 1.5rem; margin-bottom: 0.5rem;"></i>
+                            <p style="font-weight: 600;">Tableau</p>
+                        </div>
+                        <div style="padding: 1rem; background: var(--light-bg); border-radius: 8px; text-align: center;">
+                            <i class="fas fa-check-circle" style="color: var(--orange); font-size: 1.5rem; margin-bottom: 0.5rem;"></i>
+                            <p style="font-weight: 600;">Excel Advanced</p>
+                        </div>
+                        <div style="padding: 1rem; background: var(--light-bg); border-radius: 8px; text-align: center;">
+                            <i class="fas fa-check-circle" style="color: var(--orange); font-size: 1.5rem; margin-bottom: 0.5rem;"></i>
+                            <p style="font-weight: 600;">Python/R</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-light">
+            <div class="container">
+                <h2>Request Financial Services Consultation</h2>
+                <p style="text-align: center; max-width: 800px; margin: 0 auto 2rem;">
+                    Let's discuss how our financial analysis and accounting services can help your business thrive
+                </p>
+                <div class="grid-2 mt-3">
+                    <div>
+                        <form id="financialForm" style="background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                            <h3 style="color: var(--sky-blue); margin-bottom: 1.5rem;">Financial Services Request</h3>
+                            
+                            <div style="margin-bottom: 1.5rem;">
+                                <label for="fin_name" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Company Name *</label>
+                                <input type="text" id="fin_name" required style="width: 100%; padding: 0.75rem; border: 2px solid #e2e8f0; border-radius: 5px; font-size: 1rem;">
+                            </div>
+
+                            <div style="margin-bottom: 1.5rem;">
+                                <label for="fin_contact" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Contact Person *</label>
+                                <input type="text" id="fin_contact" required style="width: 100%; padding: 0.75rem; border: 2px solid #e2e8f0; border-radius: 5px; font-size: 1rem;">
+                            </div>
+
+                            <div style="margin-bottom: 1.5rem;">
+                                <label for="fin_email" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Email Address *</label>
+                                <input type="email" id="fin_email" required style="width: 100%; padding: 0.75rem; border: 2px solid #e2e8f0; border-radius: 5px; font-size: 1rem;">
+                            </div>
+
+                            <div style="margin-bottom: 1.5rem;">
+                                <label for="fin_phone" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Phone Number *</label>
+                                <input type="tel" id="fin_phone" required style="width: 100%; padding: 0.75rem; border: 2px solid #e2e8f0; border-radius: 5px; font-size: 1rem;">
+                            </div>
+
+                            <div style="margin-bottom: 1.5rem;">
+                                <label for="fin_service" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Service Needed *</label>
+                                <select id="fin_service" required style="width: 100%; padding: 0.75rem; border: 2px solid #e2e8f0; border-radius: 5px; font-size: 1rem;">
+                                    <option value="">Select a service...</option>
+                                    <option value="Bookkeeping & Accounting">Bookkeeping & Accounting</option>
+                                    <option value="Financial Statement Preparation">Financial Statement Preparation</option>
+                                    <option value="Financial Analysis & Reporting">Financial Analysis & Reporting</option>
+                                    <option value="Budgeting & Forecasting">Budgeting & Forecasting</option>
+                                    <option value="Cash Flow Management">Cash Flow Management</option>
+                                    <option value="Tax Planning & Compliance">Tax Planning & Compliance</option>
+                                    <option value="Financial Audits & Reviews">Financial Audits & Reviews</option>
+                                    <option value="M&A Support">Merger & Acquisition Support</option>
+                                    <option value="Startup Financial Services">Startup Financial Services</option>
+                                    <option value="Accounting Software Implementation">Accounting Software Implementation</option>
+                                    <option value="CFO Advisory Services">CFO Advisory Services</option>
+                                    <option value="International Financial Management">International Financial Management</option>
+                                    <option value="General Consultation">General Financial Consultation</option>
+                                </select>
+                            </div>
+
+                            <div style="margin-bottom: 1.5rem;">
+                                <label for="fin_company_size" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Company Size *</label>
+                                <select id="fin_company_size" required style="width: 100%; padding: 0.75rem; border: 2px solid #e2e8f0; border-radius: 5px; font-size: 1rem;">
+                                    <option value="">Select company size...</option>
+                                    <option value="Startup (1-10 employees)">Startup (1-10 employees)</option>
+                                    <option value="Small Business (11-50 employees)">Small Business (11-50 employees)</option>
+                                    <option value="Medium Business (51-250 employees)">Medium Business (51-250 employees)</option>
+                                    <option value="Large Enterprise (250+ employees)">Large Enterprise (250+ employees)</option>
+                                </select>
+                            </div>
+
+                            <div style="margin-bottom: 1.5rem;">
+                                <label for="fin_details" style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Describe Your Financial Needs *</label>
+                                <textarea id="fin_details" required rows="5" style="width: 100%; padding: 0.75rem; border: 2px solid #e2e8f0; border-radius: 5px; font-size: 1rem; resize: vertical;" placeholder="Tell us about your current financial situation, challenges, and what you're looking to achieve..."></textarea>
+                            </div>
+
+                            <div style="margin-bottom: 1.5rem; padding: 1rem; background: var(--light-bg); border-radius: 5px; font-size: 0.9rem;">
+                                <i class="fas fa-shield-alt" style="color: var(--teal); margin-right: 0.5rem;"></i>
+                                <strong>Confidentiality Guaranteed:</strong> All financial information shared is strictly confidential and protected.
+                            </div>
+
+                            <button type="submit" class="btn-primary" style="width: 100%;">
+                                <i class="fas fa-paper-plane"></i> Request Financial Consultation
+                            </button>
+
+                            <div id="financialMessage" style="margin-top: 1rem; padding: 1rem; border-radius: 5px; display: none;"></div>
+                        </form>
+                    </div>
+
+                    <div>
+                        <div class="card" style="background: linear-gradient(135deg, var(--teal), var(--sky-blue)); color: white; margin-bottom: 1.5rem;">
+                            <h3 style="margin-bottom: 1rem;"><i class="fas fa-phone"></i> Direct Contact</h3>
+                            <p style="margin-bottom: 1rem;">For urgent financial matters, contact us directly:</p>
+                            <p style="font-size: 1.1rem;">
+                                <strong>Phone:</strong> +48 690 386 721<br>
+                                <strong>Email:</strong> ArmelSandjong@afriqueeuropeconnexionvmetc.com
+                            </p>
+                            <p style="margin-top: 1.5rem; font-size: 0.95rem; opacity: 0.9;">
+                                <strong>Office Hours:</strong><br>
+                                Monday - Friday: 9:00 AM - 6:00 PM (CET)<br>
+                                Saturday: 10:00 AM - 2:00 PM (CET)
+                            </p>
+                        </div>
+
+                        <div class="card">
+                            <h3 style="color: var(--orange); margin-bottom: 1rem;"><i class="fas fa-clock"></i> What to Expect</h3>
+                            <ul style="line-height: 1.8;">
+                                <li><strong>Initial Consultation:</strong> Free 30-minute discussion to understand your needs</li>
+                                <li><strong>Financial Assessment:</strong> Comprehensive review of your current financial state</li>
+                                <li><strong>Custom Proposal:</strong> Tailored service package with transparent pricing</li>
+                                <li><strong>Implementation Plan:</strong> Clear timeline and deliverables</li>
+                                <li><strong>Ongoing Support:</strong> Regular check-ins and continuous improvement</li>
+                            </ul>
+                        </div>
+
+                        <div class="card" style="background: var(--light-bg);">
+                            <h3 style="color: var(--teal); margin-bottom: 1rem;"><i class="fas fa-award"></i> Why Businesses Choose Us</h3>
+                            <p style="margin-bottom: 1rem; font-weight: 600; color: var(--sky-blue);">95% Client Satisfaction Rate</p>
+                            <ul style="font-size: 0.95rem; line-height: 1.8;">
+                                <li>Certified financial professionals</li>
+                                <li>Real-time financial dashboards</li>
+                                <li>Proactive advisory approach</li>
+                                <li>Multi-language support</li>
+                                <li>Cross-border expertise</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="grid-2 mt-3">
+                <div class="card">
+                    <h3 style="color: var(--sky-blue);">What accounting software do you recommend?</h3>
+                    <p>We recommend solutions based on your business size, industry, and specific needs. Popular choices include QuickBooks for small businesses, Xero for growing companies, and SAP/Oracle for enterprises. We help you select and implement the right system.</p>
+                </div>
+
+                <div class="card">
+                    <h3 style="color: var(--teal);">How often should financial statements be prepared?</h3>
+                    <p>We recommend monthly financial statements for active monitoring, quarterly for board reporting, and annual audited statements for compliance. The frequency depends on your business complexity, growth rate, and stakeholder requirements.</p>
+                </div>
+
+                <div class="card">
+                    <h3 style="color: var(--orange);">Can you handle multi-currency accounting?</h3>
+                    <p>Yes! We specialize in international financial management including multi-currency accounting, foreign exchange management, and consolidated reporting for businesses operating across Africa, Europe, and beyond.</p>
+                </div>
+
+                <div class="card">
+                    <h3 style="color: var(--red);">What's included in financial analysis services?</h3>
+                    <p>Our financial analysis includes ratio analysis, trend analysis, variance analysis, benchmarking, cash flow analysis, and profitability assessment. We provide actionable insights with specific recommendations for improvement.</p>
+                </div>
+
+                <div class="card">
+                    <h3 style="color: var(--yellow);">Do you offer fractional CFO services?</h3>
+                    <p>Yes! Our fractional CFO services provide strategic financial leadership on a part-time or project basis, giving you executive-level financial expertise without the cost of a full-time CFO.</p>
+                </div>
+
+                <div class="card">
+                    <h3 style="color: var(--sky-blue);">How do you ensure data security?</h3>
+                    <p>We use encrypted cloud-based systems, secure file transfer protocols, and strict access controls. All staff sign confidentiality agreements, and we comply with international data protection standards including GDPR.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-light">
+            <div class="container text-center">
+                <h2>Ready to Optimize Your Financial Operations?</h2>
+                <p style="max-width: 800px; margin: 0 auto 2rem; font-size: 1.2rem;">
+                    Let our financial experts help you gain clarity, improve profitability, and make confident business decisions. Book your free consultation today.
+                </p>
+                <div style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="../consultation.html" class="btn-primary" style="font-size: 1.1rem;">
+                        <i class="fas fa-calendar-check"></i> Book Free Consultation
+                    </a>
+                    <a href="contact.html" class="btn-secondary" style="font-size: 1.1rem;">
+                        <i class="fas fa-envelope"></i> Contact Us
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>About AEC</h3>
+                    <p>
+                        AFRIQUEEUROPECONNEXIONVMETC (AEC) is a leading digital transformation partner, empowering businesses across Africa and Europe through technology, innovation, and comprehensive financial services since 2017.
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="../services/ai-ml.html">Services</a></li>
+                        <li><a href="../resources/research-insights.html">Resources</a></li>
+                        <li><a href="career.html">Legal Services</a></li>
+                        <li><a href="financial-accounting.html">Financial Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Our Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="../services/ai-ml.html">AI & Machine Learning</a></li>
+                        <li><a href="../services/ERP.html">ERP Solutions</a></li>
+                        <li><a href="../services/crm.html">CRM Implementation</a></li>
+                        <li><a href="../services/cloud.html">Cloud Services</a></li>
+                        <li><a href="../services/business-analysis.html">Business Analysis</a></li>
+                        <li><a href="../services/web-marketing.html">Web & Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Connect With Us</h3>
+                    <ul class="footer-links">
+                        <li><a href="mailto:ArmelSandjong@afriqueeuropeconnexionvmetc.com"><i class="fas fa-envelope"></i> Email Us</a></li>
+                        <li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+                        <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    </ul>
+                    <p style="margin-top: 1rem;">
+                        <strong>Phone:</strong> +48 690 386 721<br>
+                        <strong>Email:</strong> ArmelSandjong@afriqueeuropeconnexionvmetc.com<br>
+                        <strong>Locations:</strong> Douala, Cameroon | Kraków, Poland
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2025 AFRIQUEEUROPECONNEXIONVMETC (AEC). All Rights Reserved. | Designed by Armel Sandjong Nantchouang
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Financial Form Handler
+        document.getElementById('financialForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const financialMessage = document.getElementById('financialMessage');
+            const name = document.getElementById('fin_name').value;
+            const contact = document.getElementById('fin_contact').value;
+            const email = document.getElementById('fin_email').value;
+            const phone = document.getElementById('fin_phone').value;
+            const service = document.getElementById('fin_service').value;
+            const companySize = document.getElementById('fin_company_size').value;
+            const details = document.getElementById('fin_details').value;
+            
+            // Create mailto link with form data
+            const subject = encodeURIComponent(`Financial Services Request: ${service} - ${name}`);
+            const body = encodeURIComponent(
+                `FINANCIAL SERVICES REQUEST\n\n` +
+                `Company Name: ${name}\n` +
+                `Contact Person: ${contact}\n` +
+                `Email: ${email}\n` +
+                `Phone: ${phone}\n` +
+                `Company Size: ${companySize}\n` +
+                `Service Requested: ${service}\n\n` +
+                `FINANCIAL NEEDS:\n${details}\n\n` +
+                `---\n` +
+                `CONFIDENTIAL - Financial Services Request\n` +
+                `Sent from AEC Financial Services Request Form\n` +
+                `Date: ${new Date().toLocaleString()}`
+            );
+            
+            const mailtoLink = `mailto:ArmelSandjong@afriqueeuropeconnexionvmetc.com?subject=${subject}&body=${body}`;
+            
+            // Open default email client
+            window.location.href = mailtoLink;
+            
+            // Show success message
+            financialMessage.style.display = 'block';
+            financialMessage.style.background = '#c6f6d5';
+            financialMessage.style.color = '#22543d';
+            financialMessage.innerHTML = '<i class="fas fa-check-circle"></i> Your email client has been opened. Please send the email to complete your financial services request. We will respond within 24 hours.';
+            
+            // Reset form
+            setTimeout(() => {
+                this.reset();
+            }, 1000);
+        });
+
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
