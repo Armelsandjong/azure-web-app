@@ -938,8 +938,16 @@ label {
         padding: 2rem 1rem;
     }
     
+    .main-logo {
+        max-width: 280px;
+    }
+    
     .hero-title {
         font-size: 2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.2rem;
     }
     
     .hero-description {
