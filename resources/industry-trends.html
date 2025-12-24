@@ -3,70 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Industry Trends & Case Studies | AFRIQUEEUROPECONNEXIONVMETC</title>
-    <meta name="description" content="Real-world case studies showing how we solve business challenges with Microsoft Dynamics 365 and Power Pages.">
+    <title>Industry trends | AFRIQUEEUROPECONNEXIONVMETC</title>
+    <meta name="description" content="Page description here">
+    <!-- Adjust path based on subfolder depth -->
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <style>
-        .process-map {
-            background: white;
-            padding: 2rem;
-            border-radius: 12px;
-            margin: 2rem 0;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-        }
-        .process-step {
-            display: flex;
-            align-items: center;
-            margin: 1.5rem 0;
-            padding: 1rem;
-            background: var(--light-gray);
-            border-radius: 8px;
-            border-left: 4px solid var(--sky-blue);
-        }
-        .process-step i {
-            font-size: 2rem;
-            color: var(--sky-blue);
-            margin-right: 1rem;
-            min-width: 50px;
-        }
-        .arrow {
-            text-align: center;
-            font-size: 2rem;
-            color: var(--yellow);
-            margin: 0.5rem 0;
-        }
-        .problem-box {
-            background: #fff5f5;
-            border-left: 4px solid var(--red);
-            padding: 1.5rem;
-            margin: 1rem 0;
-            border-radius: 8px;
-        }
-        .solution-box {
-            background: #f0f9ff;
-            border-left: 4px solid var(--sky-blue);
-            padding: 1.5rem;
-            margin: 1rem 0;
-            border-radius: 8px;
-        }
-    </style>
 </head>
 <body>
-   <header>
+
+<!-- Header -->
+<header>
     <div class="container">
         <nav>
+            <!-- Logo - adjust path based on subfolder depth -->
             <a href="../index.html" class="logo">
-                <i class="fas fa-globe"></i> AEC
+                <img src="../assets/logo.png" alt="AEC" class="logo-img">
             </a>
+            
             <ul class="nav-links" id="navLinks">
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="../company/about.html">About</a></li>
-                <li><a href="../company/mission.html">Mission</a></li>
                 
-                <!-- Services Dropdown -->
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle">
+                    <a href="#company" class="dropdown-toggle">
+                        Company <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="../company/about.html"><i class="fas fa-info-circle"></i> About Us</a>
+                        <a href="../company/mission.html"><i class="fas fa-bullseye"></i> Our Mission</a>
+                        <a href="../company/expertise.html"><i class="fas fa-star"></i> Expertise</a>
+                        <a href="../company/Volunteer.html"><i class="fas fa-hands-helping"></i> Volunteer</a>
+                    </div>
+                </li>
+                
+                <li class="dropdown">
+                    <a href="#services" class="dropdown-toggle">
                         Services <i class="fas fa-chevron-down"></i>
                     </a>
                     <div class="dropdown-menu">
@@ -79,24 +49,24 @@
                     </div>
                 </li>
 
-                <!-- Resources Dropdown -->
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle">
+                    <a href="#resources" class="dropdown-toggle">
                         Resources <i class="fas fa-chevron-down"></i>
                     </a>
                     <div class="dropdown-menu">
-                        <a href="research-insights.html"><i class="fas fa-book"></i> Research & Insights</a>
-                        <a href="industry-trends.html"><i class="fas fa-chart-bar"></i> Industry Trends</a>
-                        <a href="case-studies.html"><i class="fas fa-file-alt"></i> Case Studies</a>
+                        <a href="../resources/research-insights.html"><i class="fas fa-book"></i> Research & Insights</a>
+                        <a href="../resources/industry-trends.html"><i class="fas fa-chart-bar"></i> Industry Trends</a>
+                        <a href="../resources/case-studies.html"><i class="fas fa-file-alt"></i> Case Studies</a>
                     </div>
                 </li>
 
-                <li><a href="../company/Volunteer.html">Volunteer</a></li>
-                <li><a href="../company/career.html">Careers</a></li>
                 <li><a href="../consultation.html" class="cta-btn">Free Consultation</a></li>
                 <li><a href="../company/contact.html">Contact</a></li>
             </ul>
-            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
         </nav>
     </div>
 </header>
