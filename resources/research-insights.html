@@ -3,58 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Research & Insights | AFRIQUEEUROPECONNEXIONVMETC</title>
+    <title>Research Insights | AFRIQUEEUROPECONNEXIONVMETC</title>
+    <meta name="description" content="Page description here">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <nav>
-                <a href="../index.html" class="logo">
-                    <i class="fas fa-globe"></i> AEC
-                </a>
-                <ul class="nav-links" id="navLinks">
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../company/about.html">About</a></li>
-                    <li><a href="../company/mission.html">Mission</a></li>
-                    
-                    <!-- Services Dropdown -->
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle">
-                            Services <i class="fas fa-chevron-down"></i>
-                        </a>
-                        <div class="dropdown-menu">
-                            <a href="../services/ai-ml.html"><i class="fas fa-robot"></i> AI & Machine Learning</a>
-                            <a href="../services/ERP.html"><i class="fas fa-project-diagram"></i> ERP Solutions</a>
-                            <a href="../services/crm.html"><i class="fas fa-users"></i> CRM Implementation</a>
-                            <a href="../services/cloud.html"><i class="fas fa-cloud"></i> Cloud Services</a>
-                            <a href="../services/business-analysis.html"><i class="fas fa-chart-line"></i> Business Analysis</a>
-                            <a href="../services/web-marketing.html"><i class="fas fa-globe"></i> Web & Marketing</a>
-                        </div>
-                    </li>
 
-                    <!-- Resources Dropdown -->
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle">
-                            Resources <i class="fas fa-chevron-down"></i>
-                        </a>
-                        <div class="dropdown-menu">
-                            <a href="research-insights.html"><i class="fas fa-book"></i> Research & Insights</a>
-                            <a href="industry-trends.html"><i class="fas fa-chart-bar"></i> Industry Trends</a>
-                            <a href="case-studies.html"><i class="fas fa-file-alt"></i> Case Studies</a>
-                        </div>
-                    </li>
+<header>
+    <div class="container">
+        <nav>
+          
+            <a href="../index.html" class="logo">
+                <img src="../assets/logo.png" alt="AEC" class="logo-img">
+            </a>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="../index.html">Home</a></li>
+                
+                <li class="dropdown">
+                    <a href="#company" class="dropdown-toggle">
+                        Company <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="../company/about.html"><i class="fas fa-info-circle"></i> About Us</a>
+                        <a href="../company/mission.html"><i class="fas fa-bullseye"></i> Our Mission</a>
+                        <a href="../company/expertise.html"><i class="fas fa-star"></i> Expertise</a>
+                        <a href="../company/Volunteer.html"><i class="fas fa-hands-helping"></i> Volunteer</a>
+                    </div>
+                </li>
+                
+                <li class="dropdown">
+                    <a href="#services" class="dropdown-toggle">
+                        Services <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="../services/ai-ml.html"><i class="fas fa-robot"></i> AI & Machine Learning</a>
+                        <a href="../services/ERP.html"><i class="fas fa-project-diagram"></i> ERP Solutions</a>
+                        <a href="../services/crm.html"><i class="fas fa-users"></i> CRM Implementation</a>
+                        <a href="../services/cloud.html"><i class="fas fa-cloud"></i> Cloud Services</a>
+                        <a href="../services/business-analysis.html"><i class="fas fa-chart-line"></i> Business Analysis</a>
+                        <a href="../services/web-marketing.html"><i class="fas fa-globe"></i> Web & Marketing</a>
+                    </div>
+                </li>
 
-                    <li><a href="../company/Volunteer.html">Volunteer</a></li>
-                    <li><a href="../company/career.html">Careers</a></li>
-                    <li><a href="../consultation.html" class="cta-btn">Free Consultation</a></li>
-                    <li><a href="../company/contact.html">Contact</a></li>
-                </ul>
-                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
-            </nav>
-        </div>
-    </header>
+                <li class="dropdown">
+                    <a href="#resources" class="dropdown-toggle">
+                        Resources <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="../resources/research-insights.html"><i class="fas fa-book"></i> Research & Insights</a>
+                        <a href="../resources/industry-trends.html"><i class="fas fa-chart-bar"></i> Industry Trends</a>
+                        <a href="../resources/case-studies.html"><i class="fas fa-file-alt"></i> Case Studies</a>
+                    </div>
+                </li>
+
+                <li><a href="../consultation.html" class="cta-btn">Free Consultation</a></li>
+                <li><a href="../company/contact.html">Contact</a></li>
+            </ul>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </div>
+</header>
 
     <main>
         <section class="hero">
