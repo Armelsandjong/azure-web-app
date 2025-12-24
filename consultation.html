@@ -17,11 +17,21 @@
         <a href="index.html" class="logo"><i class="fas fa-globe"></i> AEC</a>
         <ul class="nav-links" id="navLinks">
           <li><a href="index.html">Home</a></li>
-          <li><a href="company/about.html">About</a></li>
-          <li><a href="company/mission.html">Mission</a></li>
+          
+          <li class="dropdown">
+            <a href="#company" class="dropdown-toggle">
+              Company <i class="fas fa-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu">
+              <a href="company/about.html"><i class="fas fa-info-circle"></i> About Us</a>
+              <a href="company/mission.html"><i class="fas fa-bullseye"></i> Our Mission</a>
+              <a href="company/expertise.html"><i class="fas fa-star"></i> Expertise</a>
+              <a href="company/Volunteer.html"><i class="fas fa-hands-helping"></i> Volunteer</a>
+            </div>
+          </li>
 
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle">Services <i class="fas fa-chevron-down"></i></a>
+            <a href="#services" class="dropdown-toggle">Services <i class="fas fa-chevron-down"></i></a>
             <div class="dropdown-menu">
               <a href="services/ai-ml.html"><i class="fas fa-robot"></i> AI & Machine Learning</a>
               <a href="services/ERP.html"><i class="fas fa-project-diagram"></i> ERP Solutions</a>
@@ -32,58 +42,82 @@
             </div>
           </li>
 
-          <li><a href="company/Volunteer.html">Volunteer</a></li>
-          <li><a href="company/career.html">Careers</a></li>
+          <li class="dropdown">
+            <a href="#resources" class="dropdown-toggle">
+              Resources <i class="fas fa-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu">
+              <a href="resources/research-insights.html"><i class="fas fa-book"></i> Research & Insights</a>
+              <a href="resources/industry-trends.html"><i class="fas fa-chart-bar"></i> Industry Trends</a>
+              <a href="resources/case-studies.html"><i class="fas fa-file-alt"></i> Case Studies</a>
+            </div>
+          </li>
+
           <li><a href="consultation.html" class="cta-btn">Free Consultation</a></li>
           <li><a href="company/contact.html">Contact</a></li>
         </ul>
-        <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+          <i class="fas fa-bars"></i>
+        </button>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero consultation-hero">
       <div class="container">
         <h1><i class="fas fa-calendar-check"></i> Book Your Free Consultation</h1>
-        <p>
+        <p class="hero-description">
           Take the first step towards digital transformation. Schedule a complimentary consultation with our experts to discuss your business goals and discover tailored solutions.
         </p>
       </div>
     </section>
 
-    <section class="container">
+    <section class="container consultation-section">
       <div class="grid-2">
-        <div>
+        <div class="consultation-benefits">
           <h2>What to Expect</h2>
-          <p>Our consultation is designed to understand your challenges and explore solutions customized for your organization.</p>
+          <p class="text-large">Our consultation is designed to understand your challenges and explore solutions customized for your organization.</p>
 
-          <div class="card mt-2"><i class="fas fa-clock"></i>
-            <h3>30–60 Minute Session</h3><p>We’ll explore your business goals in depth.</p></div>
-          <div class="card"><i class="fas fa-user-tie"></i>
-            <h3>Expert Guidance</h3><p>Meet consultants with years of transformation experience.</p></div>
-          <div class="card"><i class="fas fa-lightbulb"></i>
-            <h3>Tailored Recommendations</h3><p>Receive custom insights aligned with your goals.</p></div>
-          <div class="card"><i class="fas fa-file-alt"></i>
-            <h3>No Obligation</h3><p>Completely free and commitment-free.</p></div>
+          <div class="card benefit-card">
+            <i class="fas fa-clock"></i>
+            <h3>30–60 Minute Session</h3>
+            <p>We'll explore your business goals in depth.</p>
+          </div>
+          
+          <div class="card benefit-card">
+            <i class="fas fa-user-tie"></i>
+            <h3>Expert Guidance</h3>
+            <p>Meet consultants with years of transformation experience.</p>
+          </div>
+          
+          <div class="card benefit-card">
+            <i class="fas fa-lightbulb"></i>
+            <h3>Tailored Recommendations</h3>
+            <p>Receive custom insights aligned with your goals.</p>
+          </div>
+          
+          <div class="card benefit-card">
+            <i class="fas fa-gift"></i>
+            <h3>No Obligation</h3>
+            <p>Completely free and commitment-free.</p>
+          </div>
         </div>
 
-        <!-- ✅ FORM STARTS HERE -->
         <div>
-          <div class="card" style="border-top-color: var(--yellow);">
-            <h2 style="margin-bottom: 1.5rem;">Consultation Request Form</h2>
+          <div class="card form-card">
+            <h2>Consultation Request Form</h2>
 
-            <form action="https://formsubmit.co/ArmelSandjong@afriqueeuropeconnexionvmetc.com" method="POST">
-              <!-- Hidden Config -->
+            <form action="https://formsubmit.co/ArmelSandjong@afriqueeuropeconnexionvmetc.com" method="POST" id="consultationForm">
+              <!-- Hidden Config - FIXED URL -->
               <input type="hidden" name="_subject" value="New Consultation Request from AEC Website" />
               <input type="hidden" name="_captcha" value="false" />
               <input type="hidden" name="_template" value="table" />
-              <input type="hidden" name="_next" value="https://https://afriqueeuropeconnexionvmetc.com/thank-you.html" />
-              <!-- 👆 Replace with your actual domain name -->
+              <input type="hidden" name="_next" value="https://afriqueeuropeconnexionvmetc.com/thank-you.html" />
 
               <div class="form-group">
                 <label for="name"><i class="fas fa-user"></i> Full Name *</label>
-                <input type="text" id="name" name="Full Name" required placeholder="John Doe" />
+                <input type="text" id="name" name="Full_Name" required placeholder="John Doe" />
               </div>
 
               <div class="form-group">
@@ -103,7 +137,7 @@
 
               <div class="form-group">
                 <label for="service"><i class="fas fa-cogs"></i> Service Interest *</label>
-                <select id="service" name="Service Interest" required>
+                <select id="service" name="Service_Interest" required>
                   <option value="">Select a service</option>
                   <option value="AI & Machine Learning">AI & Machine Learning</option>
                   <option value="ERP Solutions">ERP Solutions</option>
@@ -111,29 +145,60 @@
                   <option value="Cloud Services">Cloud Services</option>
                   <option value="Business Analysis">Business Analysis</option>
                   <option value="Web & Marketing">Web & Marketing</option>
+                  <option value="Multiple Services">Multiple Services</option>
                 </select>
               </div>
 
               <div class="form-group">
                 <label for="message"><i class="fas fa-comment-dots"></i> Your Message *</label>
-                <textarea id="message" name="Message" required placeholder="Please describe your business challenges or goals..."></textarea>
+                <textarea id="message" name="Message" required placeholder="Please describe your business challenges or goals..." rows="5"></textarea>
               </div>
 
               <div class="form-group">
-                <label style="display: flex; align-items: center; gap: 10px;">
-                  <input type="checkbox" required style="width: auto;" />
-                  I agree to the privacy policy and terms of service
+                <label class="checkbox-label">
+                  <input type="checkbox" name="Privacy_Agreement" required />
+                  <span>I agree to the privacy policy and terms of service</span>
                 </label>
               </div>
 
-              <button type="submit" class="submit-btn">
+              <button type="submit" class="btn-primary submit-btn">
                 <i class="fas fa-paper-plane"></i> Request Consultation
               </button>
             </form>
 
-            <p style="margin-top: 1.5rem; text-align: center; color: var(--gray); font-size: 0.9rem;">
+            <p class="form-note">
               <i class="fas fa-lock"></i> Your data is secure and confidential.
             </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Section -->
+    <section class="bg-light">
+      <div class="container">
+        <h2>Why Book a Consultation?</h2>
+        <p class="section-intro">
+          Our consultations have helped businesses across Africa and Europe achieve their digital transformation goals.
+        </p>
+
+        <div class="grid-3">
+          <div class="card feature-card">
+            <i class="fas fa-rocket"></i>
+            <h3>Fast-Track Your Growth</h3>
+            <p>Get expert insights that can accelerate your digital transformation journey by months.</p>
+          </div>
+
+          <div class="card feature-card">
+            <i class="fas fa-money-bill-wave"></i>
+            <h3>Save Time & Money</h3>
+            <p>Avoid costly mistakes by learning from our 8+ years of experience across 200+ projects.</p>
+          </div>
+
+          <div class="card feature-card">
+            <i class="fas fa-handshake"></i>
+            <h3>Build a Partnership</h3>
+            <p>This is the beginning of a long-term relationship focused on your success.</p>
           </div>
         </div>
       </div>
@@ -142,17 +207,57 @@
 
   <footer class="footer">
     <div class="container">
+      <div class="footer-content">
+        <div class="footer-col">
+          <h3>About AEC</h3>
+          <p>
+            AFRIQUEEUROPECONNEXIONVMETC (AEC) is a leading digital transformation partner, empowering businesses across Africa and Europe since 2017.
+          </p>
+          <p class="footer-values">
+            🎯 Aim High • ❤️ Be Kind • ✨ Dare to be Different
+          </p>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="company/about.html"><i class="fas fa-info-circle"></i> About Us</a></li>
+            <li><a href="company/mission.html"><i class="fas fa-bullseye"></i> Our Mission</a></li>
+            <li><a href="company/contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Connect With Us</h3>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/company/afriqueeuropeconnexionvmetc/posts/?feedView=all" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.facebook.com/armelsandjongbusiness/" target="_blank" rel="noopener noreferrer" title="Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://wa.me/48690386721" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+          <p class="footer-contact">
+            <strong>Email:</strong><br>
+            <a href="mailto:ArmelSandjong@afriqueeuropeconnexionvmetc.com">
+              ArmelSandjong@afriqueeuropeconnexionvmetc.com
+            </a><br><br>
+            <strong>Phone:</strong><br>
+            <a href="tel:+48690386721">+48 690 386 721</a>
+          </p>
+        </div>
+      </div>
+      
       <div class="footer-bottom">
-        &copy; 2025 AFRIQUEEUROPECONNEXIONVMETC (AEC). All Rights Reserved.
+        <p>&copy; 2025 AFRIQUEEUROPECONNEXIONVMETC (AEC). All Rights Reserved.</p>
       </div>
     </div>
   </footer>
 
-  <script>
-    function toggleMobileMenu() {
-      document.getElementById("navLinks").classList.toggle("active");
-    }
-  </script>
   <script src="js/main.js"></script>
 </body>
 </html>
