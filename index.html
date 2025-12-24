@@ -19,11 +19,21 @@
             </a>
             <ul class="nav-links" id="navLinks">
                 <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="company/about.html">About</a></li>
-                <li><a href="company/mission.html">Mission</a></li>
                 
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle">
+                    <a href="#company" class="dropdown-toggle">
+                        Company <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="company/about.html"><i class="fas fa-info-circle"></i> About Us</a>
+                        <a href="company/mission.html"><i class="fas fa-bullseye"></i> Our Mission</a>
+                        <a href="company/expertise.html"><i class="fas fa-star"></i> Expertise</a>
+                        <a href="company/Volunteer.html"><i class="fas fa-hands-helping"></i> Volunteer</a>
+                    </div>
+                </li>
+                
+                <li class="dropdown">
+                    <a href="#services" class="dropdown-toggle">
                         Services <i class="fas fa-chevron-down"></i>
                     </a>
                     <div class="dropdown-menu">
@@ -37,7 +47,7 @@
                 </li>
 
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle">
+                    <a href="#resources" class="dropdown-toggle">
                         Resources <i class="fas fa-chevron-down"></i>
                     </a>
                     <div class="dropdown-menu">
@@ -47,12 +57,10 @@
                     </div>
                 </li>
 
-                <li><a href="company/Volunteer.html">Volunteer</a></li>
-                <li><a href="company/career.html">Legal & Fiscal</a></li>
                 <li><a href="consultation.html" class="cta-btn">Free Consultation</a></li>
                 <li><a href="company/contact.html">Contact</a></li>
             </ul>
-            <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
                 <i class="fas fa-bars"></i>
             </button>
         </nav>
@@ -60,10 +68,9 @@
 </header>
 
 <main>
-    <!-- Hero Section with Logo -->
+    <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <!-- Logo Image -->
             <div class="hero-logo">
                 <img src="assets/logo.png" alt="AFRIQUEEUROPECONNEXIONVMETC Logo" class="main-logo">
             </div>
@@ -77,14 +84,14 @@
             </p>
             
             <p class="hero-values">
-                🎯 Aim High • ❤️ Be Kind • ✨ Dare to be Different
+                 Aim High •  Be Kind •  Dare to be Different
             </p>
             
             <div class="hero-buttons">
                 <a href="consultation.html" class="btn-primary">
                     <i class="fas fa-calendar-check"></i> Book Free Consultation
                 </a>
-                <a href="services/ai-ml.html" class="btn-secondary">
+                <a href="#services" class="btn-secondary">
                     <i class="fas fa-rocket"></i> Explore Solutions
                 </a>
             </div>
@@ -100,15 +107,15 @@
         <div class="container">
             <div class="stats-grid">
                 <div class="stat-item">
-                    <h3 class="stat-number" data-count="8">0</h3>
+                    <h3 class="stat-number" data-count="8">8+</h3>
                     <p>Years of Excellence</p>
                 </div>
                 <div class="stat-item">
-                    <h3 class="stat-number" data-count="200">0</h3>
+                    <h3 class="stat-number" data-count="200">200+</h3>
                     <p>Projects Delivered</p>
                 </div>
                 <div class="stat-item">
-                    <h3 class="stat-number" data-count="50">0</h3>
+                    <h3 class="stat-number" data-count="50">50+</h3>
                     <p>Happy Clients</p>
                 </div>
                 <div class="stat-item">
@@ -120,9 +127,9 @@
     </section>
 
     <!-- Services Overview -->
-    <section class="container services-section">
-        <h2 style="text-align: center;">Our Digital Solutions</h2>
-        <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem; font-size: 1.2rem;">
+    <section class="container services-section" id="services">
+        <h2>Our Digital Solutions</h2>
+        <p class="section-intro">
             Comprehensive technology services designed to elevate your business operations and market presence
         </p>
 
@@ -210,8 +217,8 @@
     <!-- Why Choose AEC -->
     <section class="bg-light">
         <div class="container">
-            <h2 style="text-align: center;">Why Choose AFRIQUEEUROPECONNEXIONVMETC?</h2>
-            <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem; font-size: 1.2rem;">
+            <h2>Why Choose AFRIQUEEUROPECONNEXIONVMETC?</h2>
+            <p class="section-intro">
                 We're more than consultants—we're your long-term partners in digital transformation
             </p>
 
@@ -260,25 +267,25 @@
         <div class="grid-2">
             <div>
                 <h2>From Grassroots to Global Impact</h2>
-                <p style="font-size: 1.1rem; line-height: 1.8;">
+                <p class="text-large">
                     What began in 2017 as a grassroots initiative—delivering technology solutions hand-to-hand and door-to-door—has evolved into a comprehensive digital transformation consultancy serving businesses across two continents.
                 </p>
-                <p style="font-size: 1.1rem; line-height: 1.8; margin-top: 1rem;">
+                <p class="text-large">
                     Founded by <strong>Armel Sandjong Nantchouang</strong>, AFRIQUEEUROPECONNEXIONVMETC now operates exclusively online with a network of trusted partners, bringing together the best engineers and technology experts to deliver world-class solutions.
                 </p>
-                <a href="company/about.html" class="btn-primary" style="margin-top: 2rem;">
+                <a href="company/about.html" class="btn-primary">
                     <i class="fas fa-arrow-right"></i> Our Story
                 </a>
             </div>
             <div class="card values-card">
-                <h3 style="font-size: 2rem; margin-bottom: 2rem;">Our Values</h3>
+                <h3>Our Values</h3>
                 <div class="value-item">
-                    <div class="value-icon">🎯</div>
+                    <div class="value-icon"> </div>
                     <h4>Aim High</h4>
                     <p>We set ambitious goals and never settle for mediocrity.</p>
                 </div>
                 <div class="value-item">
-                    <div class="value-icon">❤️</div>
+                    <div class="value-icon"> </div>
                     <h4>Be Kind</h4>
                     <p>Compassion and respect guide all our relationships.</p>
                 </div>
@@ -292,16 +299,16 @@
     </section>
 
     <!-- Latest Research -->
-    <section class="bg-light">
+    <section class="bg-light" id="resources">
         <div class="container">
-            <h2 style="text-align: center;">Latest Insights & Research</h2>
-            <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem; font-size: 1.2rem;">
+            <h2>Latest Insights & Research</h2>
+            <p class="section-intro">
                 Stay informed with our expert analysis on technology trends, finance, and business transformation
             </p>
 
             <div class="grid-3">
                 <div class="card research-card">
-                    <div class="research-image" style="background: linear-gradient(135deg, #0078D4, #00BCF2);">
+                    <div class="research-image">
                         <i class="fas fa-chart-line"></i>
                     </div>
                     <span class="research-tag">Finance</span>
@@ -311,7 +318,7 @@
                 </div>
 
                 <div class="card research-card">
-                    <div class="research-image" style="background: linear-gradient(135deg, #F7630C, #FFB900);">
+                    <div class="research-image">
                         <i class="fas fa-robot"></i>
                     </div>
                     <span class="research-tag">Technology</span>
@@ -321,7 +328,7 @@
                 </div>
 
                 <div class="card research-card">
-                    <div class="research-image" style="background: linear-gradient(135deg, #50E6FF, #0078D4);">
+                    <div class="research-image">
                         <i class="fas fa-cloud"></i>
                     </div>
                     <span class="research-tag">Strategy</span>
@@ -331,7 +338,7 @@
                 </div>
             </div>
 
-            <div style="text-align: center; margin-top: 3rem;">
+            <div class="text-center">
                 <a href="resources/research-insights.html" class="btn-primary">
                     <i class="fas fa-book"></i> View All Research
                 </a>
@@ -341,22 +348,22 @@
 
     <!-- Social Impact -->
     <section class="container">
-        <div class="grid-2" style="align-items: center;">
+        <div class="grid-2">
             <div class="card social-impact-card">
                 <h2>Our Social Commitment</h2>
-                <p style="font-size: 1.2rem; margin-bottom: 2rem;">
+                <p class="text-large">
                     We believe in giving back and creating positive impact in communities across Africa and Europe.
                 </p>
                 <div class="impact-stat">
-                    <h3 class="impact-number" data-count="500">0</h3>
+                    <h3 class="impact-number" data-count="500">500+</h3>
                     <p>Youth trained in digital skills</p>
                 </div>
                 <div class="impact-stat">
-                    <h3 class="impact-number" data-count="50">0</h3>
+                    <h3 class="impact-number" data-count="50">50+</h3>
                     <p>Small businesses supported</p>
                 </div>
                 <div class="impact-stat">
-                    <h3 class="impact-number" data-count="10">0</h3>
+                    <h3 class="impact-number" data-count="10">10+</h3>
                     <p>Community projects completed</p>
                 </div>
                 <a href="company/Volunteer.html" class="btn-impact">
@@ -365,7 +372,7 @@
             </div>
 
             <div>
-                <h3 style="font-size: 2rem; margin-bottom: 2rem;">Our Programs</h3>
+                <h3>Our Programs</h3>
                 <div class="card program-card">
                     <i class="fas fa-graduation-cap"></i>
                     <h4>Digital Skills Training</h4>
@@ -386,16 +393,16 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="stats cta-section">
+    <section class="cta-section">
         <div class="container text-center">
-            <h2 style="color: white; font-size: 2.5rem; margin-bottom: 1rem;">Ready to Transform Your Business?</h2>
-            <p style="font-size: 1.3rem; max-width: 700px; margin: 0 auto 2rem; color: white; opacity: 0.95;">
+            <h2>Ready to Transform Your Business?</h2>
+            <p class="cta-description">
                 Book your free consultation today and discover how we can help you achieve your digital transformation goals.
             </p>
             <a href="consultation.html" class="btn-cta">
                 <i class="fas fa-calendar-check"></i> Book Free Consultation
             </a>
-            <p style="margin-top: 1.5rem; font-size: 1.1rem; color: white;">
+            <p class="cta-contact">
                 <i class="fas fa-phone"></i> +48 690 386 721 | 
                 <i class="fas fa-map-marker-alt"></i> Douala, Cameroon & Kraków, Poland
             </p>
@@ -410,22 +417,21 @@
             <div class="footer-col">
                 <h3>About AEC</h3>
                 <p>
-                    AFRIQUEEUROPECONNEXIONVMETC (AEC) is a leading digital transformation partner, empowering businesses across Africa and Europe through technology, innovation, and comprehensive legal services since 2017.
+                    AFRIQUEEUROPECONNEXIONVMETC (AEC) is a leading digital transformation partner, empowering businesses across Africa and Europe through technology, innovation, and comprehensive services since 2017.
                 </p>
-                <p style="margin-top: 1rem; font-weight: 600; color: #FFB900;">
-                    🎯 Aim High • ❤️ Be Kind • ✨ Dare to be Different
+                <p class="footer-values">
+                     Aim High •  Be Kind •  Dare to be Different
                 </p>
             </div>
             
             <div class="footer-col">
-                <h3>Quick Links</h3>
+                <h3>Company</h3>
                 <ul class="footer-links">
                     <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
                     <li><a href="company/about.html"><i class="fas fa-info-circle"></i> About Us</a></li>
                     <li><a href="company/mission.html"><i class="fas fa-bullseye"></i> Our Mission</a></li>
-                    <li><a href="resources/research-insights.html"><i class="fas fa-book"></i> Research</a></li>
+                    <li><a href="company/expertise.html"><i class="fas fa-star"></i> Expertise</a></li>
                     <li><a href="company/Volunteer.html"><i class="fas fa-hands-helping"></i> Volunteer</a></li>
-                    <li><a href="company/career.html"><i class="fas fa-balance-scale"></i> Legal & Fiscal</a></li>
                     <li><a href="company/contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
                 </ul>
             </div>
@@ -470,16 +476,16 @@
                         <i class="fab fa-github"></i>
                     </a>
                 </div>
-                <p style="margin-top: 1.5rem; line-height: 1.8;">
+                <p class="footer-contact">
                     <strong>Email:</strong><br>
-                    <a href="mailto:ArmelSandjong@afriqueeuropeconnexionvmetc.com" style="color: rgba(255,255,255,0.8);">
+                    <a href="mailto:ArmelSandjong@afriqueeuropeconnexionvmetc.com">
                         ArmelSandjong@afriqueeuropeconnexionvmetc.com
                     </a><br><br>
                     <strong>Phone:</strong><br>
-                    <a href="tel:+48690386721" style="color: rgba(255,255,255,0.8);">+48 690 386 721</a><br><br>
+                    <a href="tel:+48690386721">+48 690 386 721</a><br><br>
                     <strong>Locations:</strong><br>
-                    📍 Douala, Cameroon<br>
-                    📍 Kraków, Poland
+                     Douala, Cameroon<br>
+                     Kraków, Poland
                 </p>
             </div>
         </div>
