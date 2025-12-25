@@ -1387,6 +1387,109 @@ nav {
     color: var(--accent);
 }
 
+/* ============================================
+   LEGAL PAGES STYLING
+   ============================================ */
+.legal-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.legal-section {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.legal-section:last-child {
+    border-bottom: none;
+}
+
+.legal-section h2 {
+    color: var(--primary-light);
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--accent);
+}
+
+.legal-section h3 {
+    color: var(--text-primary);
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.legal-section p {
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.legal-section ul,
+.legal-section ol {
+    margin: 1rem 0 1.5rem 2rem;
+    line-height: 1.8;
+}
+
+.legal-section li {
+    margin-bottom: 0.75rem;
+    color: var(--text-secondary);
+}
+
+.legal-section a {
+    color: var(--accent);
+    text-decoration: underline;
+}
+
+.legal-section a:hover {
+    color: var(--primary-light);
+}
+
+.legal-section strong {
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+/* Cookie Tables */
+.cookie-table {
+    overflow-x: auto;
+    margin: 1.5rem 0;
+}
+
+.cookie-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--bg-tertiary);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.cookie-table thead {
+    background: var(--surface);
+}
+
+.cookie-table th {
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+    color: var(--accent);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.cookie-table td {
+    padding: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    color: var(--text-secondary);
+}
+
+.cookie-table tr:last-child td {
+    border-bottom: none;
+}
+
+.cookie-table tr:hover {
+    background: rgba(255, 255, 255, 0.02);
+}
+
 /* Back to Top Button */
 .back-to-top {
     position: fixed;
